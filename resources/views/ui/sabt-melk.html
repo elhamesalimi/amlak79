@@ -1,0 +1,780 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ثبت ملک</title>
+    <link rel="stylesheet" href="asset/css/bootstrap.rtl.full.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel='stylesheet' id='responsive-css-css'  href='asset/css/responsive.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='main-css-css'  href='asset/css/main.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='rtl-main-css-css'  href='asset/css/rtl-main.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='custom-responsive-css-css'  href='asset/css/custom-responsive.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='rtl-custom-responsive-css-css'  href='asset/css/rtl-custom-responsive.css' type='text/css' media='all' />
+
+</head>
+<body>
+<section id="header">
+    <!-- Start Header -->
+    <header id="menubar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-9 col-sm-offset-1 col-xs-8">
+                    <div class="content-menu">
+                        <div class="nav-btn">
+                            <label for="nav-check">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </label>
+                        </div>
+                        <input type="checkbox" id="nav-check">
+                        <ul class="nav-links">
+
+                            <li class="dropdown">
+                                <a href="#">ثبت ملک<i class="fa fa-caret-down"></i></a>
+                                <div class="dropdown-content">
+                                    <a href="#">  برای فروش ملک</a>
+                                    <a href="#">  برای رهن و اجاره ملک</a>
+                                </div>
+                            </li>
+
+                            <li class="dropdown">
+                                <a href="#">درخواست ملک<i class="fa fa-caret-down"></i></a>
+                                <div class="dropdown-content">
+                                    <a href="#"> درخواست خرید ملک</a>
+                                    <a href="#"> درخواست اجاره ملک</a>
+                                </div>
+                            </li>
+
+                            <li><a href="#">تماس با ما</a></li>
+                            <li><a href="#">صفحه اصلی</a></li>
+                        </ul>
+                        <div class="col-md-4 col-md-offset-0 col-xs-7 col-xs-offset-3" >
+                            <div class="city select">
+                                <select name="city" id="city">
+                                    <option value="">قزوین</option>
+                                    <option value="">آوج</option>
+                                    <option value="">آبیک</option>
+                                    <option value="">آبگرم</option>
+                                    <!--<option value="">اقبالیه</option>-->
+                                    <!--<option value="">ارداق</option>-->
+                                    <!--<option value="">الوند</option>-->
+                                    <!--<option value="">بیدستان</option>-->
+                                    <!--<option value="">تاکستان</option>-->
+                                    <!--<option value="">دانسفهان</option>-->
+                                    <!--<option value="">سیردان</option>-->
+                                    <!--<option value="">شریفیه</option>-->
+                                    <!--<option value="">شال</option>-->
+                                    <!--<option value="">ضیاآیاد</option>-->
+                                    <!--<option value="">محمدیه</option>-->
+                                    <!--<option value="">مهرگان</option>-->
+                                </select>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col-xs-4 nopadding">
+                    <div class="logo" style="text-align:left;padding-left:20%">
+                        <img src="asset/images/logo.png" alt="" class="image-responsive">
+
+                    </div>
+                </div>
+                <!-- menu ends -->
+            </div>
+        </div>
+    </header>
+    <!-- header ends -->
+</section>
+
+
+<section id="content">
+
+    <div id="msform">
+        <div id="progressbar">
+
+            <div class="logo-breadcrumb"><img src="asset/images/registerhome-icon.png" alt=""></div>
+            <span class="text-breadcrumb">ثبت برای فروش ملک</span>
+
+        </div>
+        <fieldset class="register-city">
+            <h2 class="fs-title">یکی از شهرهای زیر را انتخاب کنید: </h2>
+
+            <input type="button" name="next" class="next action-button" data-value="1" value="قزوین"/>
+            <input type="button" name="next" class="next action-button" data-value="2" value="آبیک"/>
+            <input type="button" name="next" class="next action-button" data-value="3" value="تاکستان"/>
+            <input type="button" name="next" class="next action-button" data-value="4" value="آوج"/>
+            <input type="button" name="next" class="next action-button" data-value="5" value="محمدیه"/>
+            <input type="button" name="next" class="next action-button" data-value="6" value="مهرگان"/>
+            <input type="button" name="next" class="next action-button" data-value="7" value="شال"/>
+            <input type="button" name="next" class="next action-button" data-value="8" value="شریفیه"/>
+            <input type="button" name="next" class="next action-button" data-value="9" value="ضیاآباد"/>
+            <input type="button" name="next" class="next action-button" data-value="10" value="آبگرم"/>
+            <input type="button" name="next" class="next action-button" data-value="11" value="دانسفهان"/>
+            <input type="button" name="next" class="next action-button" data-value="12" value="بیدستان"/>
+        </fieldset>
+        <fieldset class="register-state">
+            <h2 class="fs-title">یکی از گزینه های زیر را انتخاب کنید: </h2>
+            <input type="button" name="next" class="next action-button" value="آپارتمان"/>
+            <input type="button" name="next" class="next action-button" value="خانه/ویلایی"/>
+            <input type="button" name="next" class="next action-button" value="زمین"/>
+            <input type="button" name="next" class="next action-button" value="کلنگی"/>
+            <input type="button" name="next" class="next action-button" value="اداری"/>
+            <input type="button" name="next" class="next action-button" value="مغازه/تجاری"/>
+            <input type="button" name="next" class="next action-button" value="باغ/کشاورزی"/>
+            <input type="button" name="next" class="next action-button" value="کارخانه/کارگاه"/>
+            <input type="button" name="previous" class="previous action-button-previous" value="بازگشت"/>
+            <i class="fa fa-arrow-left"></i>
+        </fieldset>
+        <fieldset>
+            <h2 class="fs-title">یکی از گزینه های زیر را انتخاب کنید: </h2>
+            <input type="button" name="next" class="next action-button state-btn" value="مشاورین املاک"/>
+            <input type="button" name="next" class="next action-button person-btn" value="شخصی"/>
+            <input type="button" name="previous" class="previous action-button-previous" value="بازگشت"/>
+        </fieldset>
+
+        <fieldset class="register-form">
+            <form id="register-form">
+                <div class="info-person">
+                    <h2 class="ff-title">اطلاعات آگهی دهنده</h2>
+
+                    <div  class="show-person" style="display: none">
+                        <div class="col-sm-3 col-xs-12 mb20">
+                            <div class="field placeholder">
+                                <label for="LastName" class="active">نام خانوادگی</label>
+                                <input id="LastName"  maxlength="50" name="LastName" type="text" value="" placeholder=""
+                                       data-rule-required="true"
+                                       data-msg-required="این فیلد الزامی است"
+                                >
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="show-state"  style="display: none">
+                        <div class="col-sm-3 col-xs-12 mb20">
+                            <div class="field placeholder">
+                                <label for="state-name" class="active">نام املاک</label>
+                                <input id="state-name"  maxlength="50" name="state-name" type="text" value="" placeholder=""
+                                       data-rule-required="true"
+                                       data-msg-required="این فیلد الزامی است"
+                                >
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-12 mb20">
+                        <div class="field placeholder">
+                            <label for="phone" class="active">تلفن همراه</label>
+                            <input id="phone" name="phone" type="text" data-category="quantity" value="" placeholder=""
+                                   data-rule-required="true"
+                                   data-msg-required="این فیلد الزامی است"
+                                   data-rule-pattern="(0|\+98)?([ ]|-|[()]){0,2}9[1|2|3|4]([ ]|-|[()]){0,2}(?:[0-9]([ ]|-|[()]){0,2}){8}"
+                                   data-msg-pattern="شماره صحیح نیست">
+
+                        </div>
+                    </div>
+                    <div class="show-person" style="display: none">
+                        <div class="col-sm-6 col-xs-12 mb20">
+                            <div class="field placeholder">
+                                <label class="active">ایمیل</label>
+                                <input  name="email" type="email" value="" placeholder=""
+                                        data-rule-required="true"
+                                        data-msg-required="این فیلد الزامی است"
+                                        email="true"
+                                        data-msg-email="آدرس ایمیل صحیح نیست" >
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="show-state"  style="display: none">
+                        <div class="col-sm-3 col-xs-12 mb20">
+                            <div class="field placeholder">
+                                <label for="tell" class="active">   تلفن ثابت(اختیاری)</label>
+                                <input  id="tell" name="tell" type="text" data-category="quantity" value="" placeholder=""
+                                        data-rule-pattern="(0|\+98)?([ ]|-|[()]){0,2}9[1|2|3|4]([ ]|-|[()]){0,2}(?:[0-9]([ ]|-|[()]){0,2}){8}"
+                                        data-msg-pattern="شماره صحیح نیست">
+
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-xs-12 mb20">
+                            <div class="field placeholder">
+                                <label for="email" class="active">ایمیل</label>
+                                <input  id="email" name="email" type="email" value="" placeholder=""
+                                        data-rule-required="true"
+                                        data-msg-required="این فیلد الزامی است"
+                                        email="true"
+                                        data-msg-email="آدرس ایمیل صحیح نیست">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="info-state">
+
+                    <h2 class="ff-title">  مشخصات اصلی ملک</h2>
+
+                    <div class="col-sm-3 col-xs-6 mb20">
+                        <div class="field placeholder">
+                            <label for="position" class="active">موقعیت</label>
+                            <select id="position" class="label"  name="position" data-rule-required="true"
+                                    data-msg-required="این فیلد الزامی است">
+                                <option value="" hidden>انتخاب کنید</option>
+                                <option class="light-gray" value="1">شمالی</option>
+                                <option class="light-gray" value="2">جنوبی</option>
+                                <option class="light-gray" value="3">دوکله</option>
+                                <option class="light-gray" value="4">دونبش</option>
+                                <option class="light-gray" value="5">سه نبش</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3 col-xs-6 mb20">
+                        <div class="field placeholder">
+                            <label for="area" class="active">متراژ (متر مربع)</label>
+                            <input  id="area" name="area" type="text" class="currency" data-category="quantity" value="" placeholder=""
+                                    data-rule-required="true"
+                                    data-msg-required="این فیلد الزامی است">
+
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6 mb20">
+                        <div class="field placeholder">
+                            <label for="price" class="active">قیمت متر مربع (تومان)</label>
+                            <input id="price" name="price" type="text" class="currency" data-category="quantity" value="" placeholder=""
+                                   data-rule-required="true"
+                                   data-msg-required="این فیلد الزامی است">
+
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6 mb20">
+                        <div class="field placeholder">
+                            <label for="total-price" class="active">قیمت کل (تومان)</label>
+                            <input id="total-price" name="total-price" class="currency" type="text" data-category="quantity" value="" placeholder=""
+                                   data-rule-required="true"
+                                   data-msg-required="این فیلد الزامی است">
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-sm-3 col-xs-6 mb20" style="display: none">
+                        <div class="field placeholder">
+                            <label for="lenght" class="active">عرض زمین(متر)</label>
+                            <input id="lenght" name="lenght" type="text" class="currency" data-category="quantity" value="" placeholder=""
+                                   data-rule-required="true"
+                                   data-msg-required="این فیلد الزامی است">
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3 col-xs-6 mb20" style="display: none">
+                        <div class="field placeholder">
+                            <label for="tarakom" class="active">تراکم</label>
+                            <select id="tarakom" class="label" name="tarakom"
+                                    data-rule-required="true"
+                                    data-msg-required="این فیلد الزامی است" >
+                                <option class="light-gray" value="" hidden>انتخاب کنید</option>
+                                <option class="light-gray" value="1">1 طبقه بالای پیلوت</option>
+                                <option class="light-gray" value="2">2 طبقه بالای پیلوت</option>
+                                <option class="light-gray" value="3">3 طبقه بالای پیلوت</option>
+                                <option class="light-gray" value="4">4 طبقه بالای پیلوت</option>
+                                <option class="light-gray" value="5">5 طبقه بالای پیلوت</option>
+                                <option class="light-gray" value="6">6 طبقه بالای پیلوت</option>
+                                <option class="light-gray" value="7">7 طبقه بالای پیلوت</option>
+                                <option class="light-gray" value="8">8 طبقه بالای پیلوت</option>
+                                <option class="light-gray" value="9">9 طبقه بالای پیلوت</option>
+                                <option class="light-gray" value="10">10 طبقه بالای پیلوت و بیشتر</option>
+                            </select>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-sm-3 col-xs-6 mb15">
+                        <div class="field placeholder">
+                            <label for="age" class="active">عمر بنا(سال)</label>
+
+                            <input id="age" name="age" type="text" class="mb0" data-category="quantity" value="" placeholder=""
+                                   data-rule-required="true"
+                                   data-msg-required="این فیلد الزامی است" >
+                            <span class="note-input"><i class="fa fa-question-circle" aria-hidden="true"></i> نوساز=0 </span>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6 mb20">
+                        <div class="field placeholder">
+                            <label for="count-room" class="active">تعداد اتاق</label>
+
+                            <input id="count-room" name="count-room" type="text" data-category="quantity" value="" placeholder=""
+                                   data-rule-required="true"
+                                   data-msg-required="این فیلد الزامی است">
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6 mb15">
+                        <div class="field placeholder">
+                            <label for="floor" class="active">طبقه</label>
+                            <input id="floor" name="floor" class="mb0" type="text" data-category="quantity" value="" placeholder=""
+                                   data-rule-required="true"
+                                   data-msg-required="این فیلد الزامی است">
+                            <span class="note-input"><i class="fa fa-question-circle" aria-hidden="true"></i> همکف=0 </span>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6 mb20">
+                        <div class="field placeholder">
+                            <label for="unit" class="active">تعداد کل واحد</label>
+                            <input id="unit" name="unit" type="text" data-category="quantity" value="" placeholder=""
+                                   data-rule-required="true"
+                                   data-msg-required="این فیلد الزامی است" >
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-3 col-xs-6 mb20">
+                        <div class="field placeholder">
+                            <label for="type-live" class="active">وضعیت سکونت</label>
+
+                            <select id="type-live" class="label" name="type-live" data-rule-required="true"
+                                    data-rule-required="true"
+                                    data-msg-required="این فیلد الزامی است" >
+                                <option  value="" hidden>انتخاب کنید</option>
+                                <option class="light-gray" value="1">تخلیه</option>
+                                <option class="light-gray" value="2">ملک در اجاره است</option>
+                                <option class="light-gray" value="3">مالک سکونت دارد</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6 mb20">
+                        <div class="field placeholder">
+                            <label for="type-doc" class="active">نوع سند</label>
+
+                            <select id="type-doc" class="label" name="type-doc"
+                                    data-rule-required="true"
+                                    data-msg-required="این فیلد الزامی است">
+                                <option class="light-gray" value="" hidden>انتخاب کنید</option>
+                                <option class="light-gray" value="1">سند ملکی</option>
+                                <option class="light-gray" value="2">اوقافی</option>
+                                <option class="light-gray" value="3">قلنامه ای</option>
+                                <option class="light-gray" value="4">مشاع</option>
+                                <option class="light-gray" value="5">سرقفلی</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-12 mb20">
+                        <div class="col-md-5 col-xs-6 pr0 nowrap t10 check-text">
+
+                            <div class="checkbox" style="text-align: right;">
+                                <label style="padding-right: 0">
+                                    <input type="checkbox" id="yourBox1" name="hasloan" style="width: 35%;margin-right: 0">
+                                    وام دارد
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-xs-6 field placeholder mp15 pl0 pr0">
+                            <label for="loan" class="active">مبلغ وام (تومان)</label>
+
+                            <input id="loan" name="loan" type="text" class="currency" data-category="quantity" value="" placeholder="" disabled>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-12 mb20">
+                        <div class="col-md-5 col-xs-6 pr0 nowrap t10 check-text">
+
+                            <div class="checkbox" style="text-align: right;">
+                                <label style="padding-right: 0">
+                                    <input type="checkbox" id="yourBox2" style="width: 35%;margin-right: 0">
+                                    پیش فروش
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-xs-6 field placeholder mp15 pl0 pr0">
+                            <label for="delivery" class="active">زمان تحویل</label>
+                            <select id="delivery" class="label" name="delivery" disabled>
+                                <option value="" hidden>انتخاب کنید</option>
+                                <option class="light-gray" value="1">1 ماه آینده </option>
+                                <option class="light-gray" value="2">2 ماه آینده</option>
+                                <option class="light-gray" value="3">3 ماه آینده </option>
+                                <option class="light-gray" value="4">4 ماه آینده</option>
+                                <option class="light-gray" value="5">5 ماه آینده</option>
+                                <option class="light-gray" value="6">6 ماه آینده</option>
+                                <option class="light-gray" value="7">7 ماه آینده</option>
+                                <option class="light-gray" value="8">8 ماه آینده</option>
+                                <option class="light-gray" value="9">9 ماه آینده</option>
+                                <option class="light-gray" value="10">10 ماه آینده</option>
+                                <option class="light-gray" value="11">11 ماه آینده</option>
+                                <option class="light-gray" value="12">12 ماه آینده</option>
+                                <option class="light-gray" value="13">13 ماه آینده</option>
+                                <option class="light-gray" value="14">14 ماه آینده</option>
+                                <option class="light-gray" value="15">15 ماه آینده و بیشتر</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+
+                    <div class="col-sm-3 col-xs-12 mb20">
+                        <div class="field placeholder">
+                            <label for="location" class="active">منطقه</label>
+                            <select id="location" class="label"  name="location" data-rule-required="true"
+                                    data-msg-required="این فیلد الزامی است">
+                                <option value="" hidden>انتخاب کنید</option>
+                                <option class="light-gray" value="1">بالای شهر</option>
+                                <option class="light-gray" value="2">پایین شهر</option>
+                                <option class="light-gray" value="3">مرکز شهر</option>
+                                <option class="light-gray" value="4"> ملاصدرا</option>
+                                <option class="light-gray" value="5"> دانشگاه</option>
+                                <option class="light-gray" value="6"> سرتک</option>
+                                <option class="light-gray"  value="7"> بلوار</option>
+                                <option class="light-gray" value="8"> شهر</option>
+                                <option class="light-gray" value="9">خارج شهر</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="col-sm-9 col-xs-12 mb20">
+                        <div class="field placeholder">
+                            <label for="address" class="active">آدرس</label>
+
+                            <textarea maxlength="50" name="address" id="address" cols="30" rows="1" data-rule-required="true"
+                                      data-msg-required="این فیلد الزامی است"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="facilities mb20">
+
+                    <h2 class="ff-title"> امکانات</h2>
+
+                    <div class="col-md-2 col-xs-6 mb20">
+                        <input id="Parking" name="Parking" type="checkbox" value="true">
+                        <label for="Parking" class="Parking">
+                            پارکینگ
+                        </label>
+                    </div>
+                    <div class="col-md-2 col-xs-6 mb20">
+                        <input id="Elevator" name="Elevator" type="checkbox" value="true">
+                        <label for="Elevator" class="elevator">
+                            آسانسور
+                        </label>
+                    </div>
+                    <div class="col-md-2 col-xs-6 mb20">
+                        <input id="Store" name="Store" type="checkbox" value="true">
+                        <label for="Store" class="store">
+                            انباری
+                        </label>
+                    </div>
+                    <div class="col-md-2 col-xs-6 mb20">
+                        <input  id="balcone" name="HasLoan" type="checkbox" value="true">
+                        <label for="balcone" class="hasLoan">
+                            تراس
+                        </label>
+                    </div>
+                    <div class="col-md-2 col-xs-6 mb20">
+                        <input  id="sona" name="HasLoan" type="checkbox" value="true">
+                        <label for="sona" class="hasLoan">
+                            سونا
+                        </label>
+                    </div>
+                    <div class="col-md-2 col-xs-6 mb20">
+                        <input  id="jaccuzi" name="HasLoan" type="checkbox" value="true">
+                        <label for="jaccuzi" class="hasLoan">
+                            جکوزی
+                        </label>
+                    </div>
+                    <div class="col-md-2 col-xs-6 mb20">
+                        <input  id="pool" name="HasLoan" type="checkbox" value="true">
+                        <label for="pool" class="hasLoan">
+                            استخر
+                        </label>
+                    </div>
+                    <div class="col-md-2 col-xs-6 mb20">
+                        <input  id="toilet" name="HasLoan" type="checkbox" value="true">
+                        <label for="toilet" class="hasLoan">
+                            سرویس فرنگی
+                        </label>
+                    </div>
+                    <div class="col-md-2 col-xs-6 mb20">
+                        <input  id="ff" name="HasLoan" type="checkbox" value="true">
+                        <label for="ff" class="hasLoan">
+                            آیفون تصویری
+                        </label>
+                    </div>
+                    <div class="col-md-2 col-xs-6 mb20">
+                        <input  id="cooler" name="HasLoan" type="checkbox" value="true">
+                        <label for="cooler" class="hasLoan">
+                            کولر گازی
+                        </label>
+                    </div>
+                    <div class="col-md-2 col-xs-6 mb20">
+                        <input  id="aircondition" name="HasLoan" type="checkbox" value="true">
+                        <label for="aircondition" class="hasLoan">
+                            هواساز
+                        </label>
+                    </div>
+                    <div class="col-md-2 col-xs-6 mb20">
+                        <input  id="pakage" name="HasLoan" type="checkbox" value="true">
+                        <label for="pakage" class="hasLoan">
+                            پکیج
+                        </label>
+                    </div>
+                    <div class="col-md-2 col-xs-6 mb20">
+                        <input  id="heat" name="HasLoan" type="checkbox" value="true">
+                        <label for="heat" class="hasLoan">
+                            گرمایش از کف
+                        </label>
+                    </div>
+                    <div class="col-md-2 col-xs-6 mb20">
+                        <input  id="parket" name="HasLoan" type="checkbox" value="true">
+                        <label for="parket" class="hasLoan">
+                            پارکت
+                        </label>
+                    </div>
+                    <div class="col-md-2 col-xs-6 mb20">
+                        <input  id="moble" name="HasLoan" type="checkbox" value="true">
+                        <label for="moble" class="hasLoan">
+                            مبله شده
+                        </label>
+                    </div>
+                    <div class="col-md-2 col-xs-6 mb20">
+                        <div class="col-xs-5 pr0 pl0 nowrap">
+                            <input  id="kabinet" name="kabinet" type="checkbox">
+                            <label for="kabinet" class="kabinet">
+                                کابینت
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-xs-6 field placeholder mb20">
+
+                        <select id="type-kabinet" class="label" name="type-kabinet" disabled>
+                            <option class="light-gray" value="" hidden>انتخاب کنید</option>
+                            <option class="light-gray" value="1">فلزی</option>
+                            <option class="light-gray" value="2">mdf</option>
+                            <option class="light-gray" value="3">چوب</option>
+                            <option class="light-gray" value="4">طرحmdf</option>
+                            <option class="light-gray" value="5">های گلاس</option>
+                            <option class="light-gray" value="6">ممبران</option>
+                            <option class="light-gray" value="7">سایر</option>
+                        </select>
+                        <label for="type-kabinet" class="active"> نوع کابینت  </label>
+                    </div>
+                </div>
+                <div class="col-md-12 col-xs-12 explain">
+                    <div class="field placeholder">
+                        <textarea name="explain" id="explain" cols="30" rows="6"></textarea>
+                        <label for="explain" class="active">توضیحات </label>
+                    </div>
+                </div>
+
+
+                <input type="button" name="previous" class="previous action-button-previous" value="بازگشت"/>
+                <button type="submit" id="submit-form" name="submit" class="action-button" value="Submit">ارسال رایگان آگهی</button>
+
+
+                <div id="messages" style="display: none"  class="alert alert-danger alert-dismissible"
+                     role="alert">
+                    <div><h4>لطفا مبلغ وام را وارد کنید</h4></div>
+                </div>
+            </form>
+        </fieldset>
+    </div> <!--end id=msform-->
+</section>
+
+<script src="asset/js/jquery.min.js"></script>
+<script src='asset/js/custom.js'></script>
+<script src='asset/js/bootstrap.min.js'></script>
+<script src="asset/js/jquery.easing.min.js"></script> <!--only for this page-->
+<script src="asset/js/jquery.validate.min.js"></script><!--only for this page-->
+
+<script>
+    //jQuery time
+    var current_fs, next_fs, previous_fs; //fieldsets
+    var left, opacity, scale; //fieldset properties which we will animate
+    var animating; //flag to prevent quick multi-click glitches
+
+
+    $(".next").click(function(){
+        // alert($(this).attr("data-value"));
+        if(animating) return false;
+        animating = true;
+
+        current_fs = $(this).parent();
+        next_fs = $(this).parent().next();
+
+        //activate next step on progressbar using the index of next_fs
+        $("#progressbar li").eq($("fieldset").index(next_fs)).addClass("active");
+
+        //show the next fieldset
+        next_fs.show();
+        //hide the current fieldset with style
+        current_fs.animate({opacity: 0}, {
+            step: function(now, mx) {
+                //as the opacity of current_fs reduces to 0 - stored in "now"
+                //1. scale current_fs down to 80%
+                scale = 1 - (1 - now) * 0.2;
+                //2. bring next_fs from the right(50%)
+                left = (now * 50)+"%";
+                //3. increase opacity of next_fs to 1 as it moves in
+                opacity = 1 - now;
+                current_fs.css({
+                    'transform': 'scale('+scale+')',
+                    'position': 'absolute'
+                });
+                next_fs.css({'left': left, 'opacity': opacity});
+            },
+            duration: 800,
+            complete: function(){
+                current_fs.hide();
+                animating = false;
+            },
+            //this comes from the custom easing plugin
+            easing: 'easeInOutBack'
+        });
+    });
+
+    $(".previous").click(function(){
+        if(animating) return false;
+        animating = true;
+
+        current_fs = $(this).parent();
+        previous_fs = $(this).parent().prev();
+
+        //de-activate current step on progressbar
+        $("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
+
+        //show the previous fieldset
+        previous_fs.show();
+        //hide the current fieldset with style
+        current_fs.animate({opacity: 0}, {
+            step: function(now, mx) {
+                //as the opacity of current_fs reduces to 0 - stored in "now"
+                //1. scale previous_fs from 80% to 100%
+                scale = 0.8 + (1 - now) * 0.2;
+                //2. take current_fs to the right(50%) - from 0%
+                left = ((1-now) * 50)+"%";
+                //3. increase opacity of previous_fs to 1 as it moves in
+                opacity = 1 - now;
+                current_fs.css({'left': left});
+                previous_fs.css({'transform': 'scale('+scale+')', 'opacity': opacity});
+            },
+            duration: 800,
+            complete: function(){
+                current_fs.hide();
+                animating = false;
+            },
+            //this comes from the custom easing plugin
+            easing: 'easeInOutBack'
+        });
+    });
+
+    $(".submit").click(function(){
+        return false;
+    })
+
+    // disable-enable checkbox
+    document.getElementById('yourBox1').onchange = function() {
+        document.getElementById('loan').disabled = !this.checked;
+        $("#loan").val('');
+    };
+    document.getElementById('yourBox2').onchange = function() {
+        document.getElementById('delivery').disabled = !this.checked;
+    };
+    document.getElementById('kabinet').onchange = function() {
+        document.getElementById('type-kabinet').disabled = !this.checked;
+    };
+
+    // show different inputs with different select
+    $('.state-btn').on('click',function () {
+        $('.show-state').css("display", "block");
+        $('.show-person').css("display", "none");
+    })
+    $('.person-btn').on('click',function () {
+        $('.show-person').css("display", "block");
+        $('.show-state').css("display", "none");
+    })
+
+    // regex only number for some input
+
+       $(".currency").on("keypress keyup blur",function (event) {
+        $(this).val($(this).val().replace(/[^\d].+/, ""));
+        if ((event.which < 48 || event.which > 57)) {
+            event.preventDefault();
+        }
+    });
+
+    // change color of selected option
+    $('select.label').change(function(){
+        $(this).css('color', '#3fb92b');
+    });
+
+    $("#register-form").validate();
+
+
+
+
+
+
+
+    $(document).ready(function(){
+        //apply on typing and focus
+        $('input.currency').on('blur',function(){
+            $(this).manageCommas();
+        });
+        //then sanatize on leave
+        // if sanitizing needed on form submission time,
+        //then comment beloc function here and call in in form submit function.
+        $('input.currency').on('focus',function(){
+            $(this).santizeCommas();
+        });
+    });
+
+    String.prototype.addComma = function() {
+        return this.replace(/(.)(?=(.{3})+$)/g,"$1,")
+    }
+    //Jquery global extension method
+    $.fn.manageCommas = function () {
+        return this.each(function () {
+            $(this).val($(this).val().replace(/(,| )/g,'').addComma());
+        })
+    }
+
+    $.fn.santizeCommas = function() {
+        return $(this).val($(this).val().replace(/(,| )/g,''));
+    }
+
+
+
+
+
+
+    function isfill() {
+        if ($("input[name='loan']").val() != "") {
+            return true;
+        }
+
+        return false;
+    }
+
+    $('#submit-form').submit(function () {
+
+        if (isfill()) {
+            $('#messages').hide();
+
+        } else {
+            $('#messages').show();
+
+        }
+
+    });
+</script>
+
+</body>
+</html>

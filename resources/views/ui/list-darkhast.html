@@ -1,0 +1,582 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#c00c1a" />
+    <title>ثبت ملک</title>
+    <link rel="stylesheet" href="asset/css/bootstrap.rtl.full.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel='stylesheet' id='responsive-css-css'  href='asset/css/responsive.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='main-css-css'  href='asset/css/main.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='rtl-main-css-css'  href='asset/css/rtl-main.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='custom-responsive-css-css'  href='asset/css/custom-responsive.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='rtl-custom-responsive-css-css'  href='asset/css/rtl-custom-responsive.css' type='text/css' media='all' />
+
+</head>
+<body>
+<section id="modal">
+    <div class="modal fade" id="deleteModal" role="dialog">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+
+                <div class="modal-body">
+                    <h5>آیا برای حذف کلیه درخواست ها مطمئن هستید؟</h5>
+                    <a href="#" class="btn btn-success removes" role="button">    پاک شود</a>
+                    <a href="#"  type="button" class="btn btn-danger" data-dismiss="modal">انصراف</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="header">
+    <!-- Start Header -->
+
+    <header id="menubar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-9 col-sm-offset-1 col-xs-8">
+                    <div class="content-menu">
+                        <div class="nav-btn">
+                            <label for="nav-check">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </label>
+                        </div>
+                        <input type="checkbox" id="nav-check">
+                        <ul class="nav-links">
+
+                            <li class="dropdown">
+                                <a href="#">ثبت ملک<i class="fa fa-caret-down"></i></a>
+                                <div class="dropdown-content">
+                                    <a href="#">  برای فروش ملک</a>
+                                    <a href="#">  برای رهن و اجاره ملک</a>
+                                </div>
+                            </li>
+
+                            <li class="dropdown">
+                                <a href="#">درخواست ملک<i class="fa fa-caret-down"></i></a>
+                                <div class="dropdown-content">
+                                    <a href="#"> درخواست خرید ملک</a>
+                                    <a href="#"> درخواست اجاره ملک</a>
+                                </div>
+                            </li>
+
+                            <li><a href="#">تماس با ما</a></li>
+                            <li><a href="#">صفحه اصلی</a></li>
+                        </ul>
+                        <div class="col-md-4 col-md-offset-0 col-xs-7 col-xs-offset-3" >
+                            <div class="city select">
+                                <select name="city" id="city">
+                                    <option value="">قزوین</option>
+                                    <option value="">آوج</option>
+                                    <option value="">آبیک</option>
+                                    <option value="">آبگرم</option>
+                                    <!--<option value="">اقبالیه</option>-->
+                                    <!--<option value="">ارداق</option>-->
+                                    <!--<option value="">الوند</option>-->
+                                    <!--<option value="">بیدستان</option>-->
+                                    <!--<option value="">تاکستان</option>-->
+                                    <!--<option value="">دانسفهان</option>-->
+                                    <!--<option value="">سیردان</option>-->
+                                    <!--<option value="">شریفیه</option>-->
+                                    <!--<option value="">شال</option>-->
+                                    <!--<option value="">ضیاآیاد</option>-->
+                                    <!--<option value="">محمدیه</option>-->
+                                    <!--<option value="">مهرگان</option>-->
+                                </select>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col-xs-4 nopadding">
+                    <div class="logo">
+                        <img src="asset/images/logo.png" alt="" class="image-responsive">
+
+                    </div>
+                </div>
+                <!-- menu ends -->
+            </div>
+        </div>
+    </header>
+    <!-- header ends -->
+</section>
+
+
+<section id="content">
+    <div class="container list-registers">
+        <div class="post-page">
+            <div class="ui fluid card breadcrumb-container">
+                <div class="content">
+                    <button class="ui button back-button" role="button">بازگشت</button>
+                    <div class="ui breadcrumb">
+                                        <span>
+                                            <div class="section">
+                                                <a title=" ثبت درخواست ملک" href="#">  ثبت درخواست ملک</a>
+                                            </div>
+                                        </span>
+                        <span>/<div class="section">
+                                            <a title="فرم ثیت ملک" href="#">فرم ثبت ملک</a>
+                                        </div>
+                                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-list">
+                <p class="pull-right info-person">
+                    نام : سعید توکلی            <br>
+                    ایمیل : amlak79.ir@gmail.com            <br>
+                    شماره موبایل : 09127816488                    </p>
+                <div class="clearfix"></div>
+                <div id="exTab">
+                    <ul  class="nav nav-pills">
+                        <li class="active">
+                            <a  href="#1b" data-toggle="tab">لیست املاک</a>
+                        </li>
+                        <li><a href="#2b" data-toggle="tab">تاریخچه</a>
+                        </li>
+
+                    </ul>
+
+                    <div class="tab-content clearfix">
+                        <div class="tab-pane active" id="1b">
+
+                            <div class="list-group list">
+
+                                <div class="date-list col-md-12 col-xs-12 pl0 pr0">
+                                    <p class="date-day">  <i class="fa fa-caret-down"></i> 25 تیر 1397  </p>
+                                </div>
+
+
+                                <div class="col-lg-4 col-sm-6 col-xs-12 content-box">
+                                    <a href="#">
+                                        <div class="index-item">
+
+                                            <div class="item-body clearfix">
+                                                <a href="#" target="_blank" class="thumbnail">
+                                                    <div class="ribbon-box">
+                                                        <p>ویژه</p>
+                                                        <span class="ribbon"></span>
+                                                    </div>
+                                                    <img src="asset/images/1.jpg" alt="فروش آپارتمانی به متراژ ۲۰۶ خیام شمالی" class="img-responsive">
+                                                    <div class="textonimg">اجاره:800,000 تومان </div>
+
+                                                </a>
+
+                                                <div class="content">
+                                                    <a href="#" target="_blank">
+                                                        <p class="title-home">فروش آپارتمانی به متراژ <span class="name">79</span> خیام شمالی</p>
+                                                    </a>
+
+                                                    <p class="home-facility">
+                                                        4  واحده  |  طبقه 3 |
+                                                        2 ساله     </p>
+                                                    <p class="facilities"> آسانسور | پارکینگ </p>
+                                                    <a href="#" target="_blank">
+                                                        <span class="price-home">  رهن:<span class="title price">1,563,000,000</span>     تومان </span>
+                                                    </a>
+                                                </div>
+
+                                                <div class="delete-box">
+                                                    <button class="btn btn-danger remove">حذف</button>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+
+                                <div class="col-lg-4 col-sm-6 col-xs-12 content-box">
+                                    <a href="#" >
+                                        <div class="index-item">
+                                            <div class="item-body clearfix">
+                                                <a href="#" target="_blank" class="thumbnail">
+                                                    <div class="ribbon-box">
+                                                        <p>ویژه</p>
+                                                        <span class="ribbon"></span>
+                                                    </div>
+                                                    <img src="asset/images/2.jpg" alt="فروش آپارتمانی به متراژ ۲۰۶ خیام شمالی" class="img-responsive">
+                                                </a>
+                                                <div class="content ">
+                                                    <a href="#" target="_blank">
+                                                        <p class="title-home">فروش آپارتمانی به متراژ <span class="name">54</span> خیام شمالی</p>
+                                                    </a>
+
+
+                                                    <p class="home-facility">
+                                                        4  واحده  |  طبقه 3 |
+
+                                                        2 ساله     </p>
+
+
+                                                    <p class="facilities"> آسانسور | پارکینگ </p>
+                                                    <a href="#" target="_blank">
+                                                        <span class="price-home"> <span class="title price">520,000,000</span>     تومان </span>
+                                                    </a>
+                                                </div>
+
+                                                <div class="delete-box">
+                                                    <button class="btn btn-danger remove">حذف</button>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+
+
+                                <div class="col-lg-4 col-sm-6 col-xs-12 content-box">
+                                    <a href="#">
+                                        <div class="index-item">
+                                            <div class="item-body clearfix">
+                                                <a href="#" target="_blank" class="thumbnail">
+                                                    <img src="asset/images/3.jpg" alt="فروش آپارتمانی به متراژ ۲۰۶ خیام شمالی" class="img-responsive">
+                                                    <div class="textonimg">اجاره:800,000 تومان </div>
+                                                </a>
+                                                <div class="content">
+                                                    <a href="#" target="_blank">
+                                                        <p class="title-home">فروش آپارتمانی به متراژ <span class="name">6</span> خیام شمالی</p>
+                                                    </a>
+
+
+
+                                                    <p class="home-facility">
+                                                        4  واحده  |  طبقه 3 |
+
+                                                        2 ساله     </p>
+
+
+                                                    <p class="facilities"> آسانسور | پارکینگ </p>
+                                                    <a href="#" target="_blank">
+                                                        <span class="price-home">   رهن:  <span class="title price">1,888,000,000</span>  تومان </span>
+                                                    </a>
+                                                </div>
+
+                                                <div class="delete-box">
+                                                    <button class="btn btn-danger remove">حذف</button>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-4 col-sm-6 col-xs-12 content-box">
+
+                                    <a href="#" >
+                                        <div class="index-item">
+                                            <div class="item-body clearfix">
+                                                <a href="#" target="_blank" class="thumbnail">
+                                                    <img src="asset/images/4.jpg" alt="فروش آپارتمانی به متراژ ۲۰۶ خیام شمالی" class="img-responsive">
+                                                </a>
+                                                <div class="content">
+                                                    <a href="#" target="_blank">
+                                                        <p class="title-home">فروش آپارتمانی به متراژ <span class="name">600</span> خیام شمالی</p>
+                                                    </a>
+
+
+                                                    <p class="home-facility">
+                                                        4  واحده  |  طبقه 3 |
+
+                                                        2 ساله     </p>
+
+
+                                                    <p class="facilities"> آسانسور | پارکینگ </p>
+
+                                                    <a href="#" target="_blank">
+                                                        <span class="price-home">  <span class="title price">89,000,000</span>   تومان </span>
+                                                    </a>
+                                                </div>
+
+                                                <div class="delete-box">
+                                                    <button class="btn btn-danger remove">حذف</button>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+
+                                <div class="date-list col-md-12 col-md-12 col-xs-12 pl0 pr0">
+                                    <p class="date-day">  <i class="fa fa-caret-down"></i> 8 تیر 1397  </p>
+
+                                </div>
+
+
+
+                                <div class="col-lg-4 col-sm-6 col-xs-12 content-box">
+
+                                    <a href="#" >
+                                        <div class="index-item">
+                                            <div class="item-body clearfix">
+                                                <a href="#" target="_blank" class="thumbnail">
+                                                    <img src="asset/images/1.jpg" alt="فروش آپارتمانی به متراژ ۲۰۶ خیام شمالی" class="img-responsive">
+                                                    <div class="textonimg">اجاره:800,000 تومان </div>
+                                                </a>
+                                                <div class="content">
+                                                    <a href="#" target="_blank">
+                                                        <p class="title-home">فروش آپارتمانی به متراژ <span class="name">55</span> خیام شمالی</p>
+                                                    </a>
+
+
+                                                    <p class="home-facility">
+                                                        4  واحده  |  طبقه 3 |
+
+                                                        2 ساله     </p>
+
+
+                                                    <p class="facilities"> آسانسور | پارکینگ </p>
+                                                    <a href="#" target="_blank">
+                                                        <span class="price-home">   رهن: <span class="title price">909,000,000</span>   تومان </span>
+                                                    </a>
+
+                                                </div>
+
+                                                <div class="delete-box">
+                                                    <button class="btn btn-danger remove">حذف</button>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-4 col-sm-6 col-xs-12 content-box">
+
+                                    <a href="#" >
+                                        <div class="index-item">
+                                            <div class="item-body clearfix">
+
+                                                <a href="#" target="_blank" class="thumbnail">
+                                                    <div class="ribbon-box">
+                                                        <p>ویژه</p>
+                                                        <span class="ribbon"></span>
+                                                    </div>
+                                                    <img src="asset/images/2.jpg" alt="فروش آپارتمانی به متراژ ۲۰۶ خیام شمالی" class="img-responsive">
+                                                </a>
+
+                                                <div class="content ">
+                                                    <a href="#" target="_blank">
+                                                        <p class="title-home">فروش آپارتمانی به متراژ <span class="name">76</span> خیام شمالی</p>
+                                                    </a>
+
+
+                                                    <p class="home-facility">
+                                                        4  واحده  |  طبقه 3 |
+
+                                                        2 ساله     </p>
+
+
+                                                    <p class="facilities"> آسانسور | پارکینگ </p>
+                                                    <a href="#" target="_blank">
+                                                        <span class="price-home"> <span class="title price">100,000,000</span>    تومان  </span>
+                                                    </a>
+                                                </div>
+
+                                                <div class="delete-box">
+                                                    <button class="btn btn-danger remove">حذف</button>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="date-list col-md-12 col-xs-12 pl0 pr0">
+                                    <p class="date-day">  <i class="fa fa-caret-down"></i> 30 خرداد 1397  </p>
+
+                                </div>
+
+
+                                <div class="col-lg-4 col-sm-6 col-xs-12 content-box">
+
+                                    <a href="#">
+                                        <div class="index-item">
+                                            <div class="item-body clearfix">
+                                                <a href="#" target="_blank" class="thumbnail">
+                                                    <img src="asset/images/2.jpg" alt="فروش آپارتمانی به متراژ ۲۰۶ خیام شمالی" class="img-responsive">
+                                                </a>
+                                                <div class="content">
+                                                    <a href="#" target="_blank">
+                                                        <p class="title-home">فروش آپارتمانی به متراژ <span class="name">111</span> خیام شمالی</p>
+                                                    </a>
+
+
+
+                                                    <p class="home-facility">
+                                                        4  واحده  |  طبقه 3 |
+
+                                                        2 ساله     </p>
+
+
+                                                    <p class="facilities"> آسانسور | پارکینگ </p>
+                                                    <a href="#" target="_blank">
+                                                        <span class="price-home">   <span class="title price">709,000,000</span>   تومان </span>
+                                                    </a>
+                                                </div>
+
+                                                <div class="delete-box">
+                                                    <button class="btn btn-danger remove">حذف</button>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-4 col-sm-6 col-xs-12 content-box">
+
+                                    <a href="#" >
+                                        <div class="index-item">
+                                            <div class="item-body clearfix">
+                                                <a href="#" target="_blank" class="thumbnail">
+                                                    <div class="ribbon-box">
+                                                        <p>ویژه</p>
+                                                        <span class="ribbon"></span>
+                                                    </div>
+                                                    <img src="asset/images/3.jpg" alt="فروش آپارتمانی به متراژ ۲۰۶ خیام شمالی" class="img-responsive">
+                                                </a>
+                                                <div class="content">
+                                                    <a href="#" target="_blank">
+                                                        <p class="title-home">فروش آپارتمانی به متراژ <span class="name">43</span> خیام شمالی</p>
+                                                    </a>
+
+
+
+                                                    <p class="home-facility">
+                                                        4  واحده  |  طبقه 3 |
+
+                                                        2 ساله     </p>
+
+
+                                                    <p class="facilities"> آسانسور | پارکینگ </p>
+                                                    <a href="#" target="_blank">
+                                                        <span class="price-home">    <span class="title price">502,000,000</span>  تومان </span>
+                                                    </a>
+
+                                                </div>
+
+                                                <div class="delete-box">
+                                                    <button class="btn btn-danger remove">حذف</button>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                </div>
+
+                                <div class="col-lg-4 col-sm-6 col-xs-12 content-box">
+                                    <a href="#" >
+                                        <div class="index-item">
+                                            <div class="item-body clearfix">
+                                                <a href="#" target="_blank" class="thumbnail">
+                                                    <img src="asset/images/4.jpg" alt="فروش آپارتمانی به متراژ ۲۰۶ خیام شمالی" class="img-responsive">
+                                                </a>
+                                                <div class="content ">
+                                                    <a href="#" target="_blank">
+                                                        <p class="title-home">فروش آپارتمانی به متراژ <span class="name">9</span> خیام شمالی</p>
+                                                    </a>
+
+
+
+                                                    <p class="home-facility">
+                                                        4  واحده  |  طبقه 3 |
+
+                                                        2 ساله     </p>
+
+
+                                                    <p class="facilities"> آسانسور | پارکینگ </p>
+
+                                                    <a href="#" target="_blank">
+                                                        <span class="price-home">  <span class="title price">1,770,000,000</span>    تومان </span>
+                                                    </a>
+                                                </div>
+
+                                                <div class="delete-box">
+                                                    <button class="btn btn-danger remove">حذف</button>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+
+
+
+                            </div>
+
+
+                        </div>
+                        <div class="tab-pane" id="2b">
+
+                            <div class="col-md-12 history-item content-box">
+                                <div class="col-md-1">
+                                    <a class="fa fa-times remove" href="#"></a>
+                                </div>
+
+                                <div class="col-md-11">درخواست یک
+                                    آپارتمانی در محدوده دانشگاه ,  به متراژ 100تا 230متر و از قیمت 500000000 تا 1500000000 تومان جهت خرید توسط شما ثبت شده است                         </div>
+                            </div>
+
+
+                            <div class="col-md-12 history-item content-box">
+                                <div class="col-md-1">
+                                    <a class="fa fa-times remove" href="#"></a>
+                                </div>
+
+                                <div class="col-md-11">درخواست یک
+                                    آپارتمانی در محدوده بلوار مدرس ، پادگان ، عارف ، فردوسی ،  فلسطین ، بلوار شهید بهشتی ، نادری ، خیام ، توحید ، ولیعصر ، حکم آباد ، بوعلی ، طالقانی ، باغ دبیر , نوروزیان ,  به متراژ 1تا 450متر و از قیمت 10000000 تا 2147483647 تومان جهت خرید توسط شما ثبت شده است                         </div>
+                            </div>
+                            <p class="col-md-12 col-xs-12 text-history">جهت ثبت درخواست جدید <a href="sabt-darkhast.html">اینجا کلیک کنید</a></p>
+
+                            <p class="col-md-12 col-xs-12 text-history">جهت حذف کلیه درخواست ها  <a href="#" data-toggle="modal" data-target="#deleteModal">اینجا کلیک کنید</a></p>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<script src="asset/js/jquery.min.js"></script>
+<script src='asset/js/custom.js'></script>
+<script src='asset/js/bootstrap.min.js'></script>
+<script>
+    $('.remove').on('click',function () {
+        $(this).parents('.content-box').remove()
+    })
+
+    $('.removes').on('click',function () {
+        $('.history-item').remove();
+        $('#deleteModal').modal("hide")
+    })
+</script>
+
+
+
+</body>
+</html>

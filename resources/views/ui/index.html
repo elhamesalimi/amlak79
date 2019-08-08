@@ -1,0 +1,1907 @@
+
+<!doctype html>
+<head>
+    <meta charset="UTF-8">
+    <title>املاک 79</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/bootstrap.rtl.full.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel='stylesheet' id='responsive-css-css'  href='asset/css/responsive.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='main-css-css'  href='asset/css/main.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='rtl-main-css-css'  href='asset/css/rtl-main.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='custom-responsive-css-css'  href='asset/css/custom-responsive.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='rtl-custom-responsive-css-css'  href='asset/css/rtl-custom-responsive.css' type='text/css' media='all' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/css/select2.min.css"> <!--only for index-->
+</head>
+
+<body>
+<section id="header">
+    <!-- Start Header -->
+
+    <header id="menubar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-1 col-xs-8">
+                    <div class="content-menu">
+                        <div class="nav-btn">
+                            <label for="nav-check">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </label>
+                        </div>
+                        <input type="checkbox" id="nav-check">
+                        <ul class="nav-links">
+
+                            <li class="dropdown">
+                                <a href="#">ثبت ملک<i class="fa fa-caret-down"></i></a>
+                                <div class="dropdown-content">
+                                    <a href="sabt-melk.html">  برای فروش ملک</a>
+                                    <a href="sabt-melk.html">  برای رهن و اجاره ملک</a>
+                                </div>
+                            </li>
+
+                            <li class="dropdown">
+                                <a href="#">درخواست ملک<i class="fa fa-caret-down"></i></a>
+                                <div class="dropdown-content">
+                                    <a href="sabt-darkhast.html"> درخواست خرید ملک</a>
+                                    <a href="sabt-darkhast.html"> درخواست اجاره ملک</a>
+                                </div>
+                            </li>
+
+                            <li><a href="#">تماس با ما</a></li>
+                            <li><a href="#">صفحه اصلی</a></li>
+                        </ul>
+                        <div class="col-md-4 col-md-offset-0 col-xs-7 col-xs-offset-3" >
+                            <div class="city select">
+                                <select name="city" id="city">
+                                    <option value="">قزوین</option>
+                                    <option value="">آوج</option>
+                                    <option value="">آبیک</option>
+                                    <option value="">آبگرم</option>
+                                    <!--<option value="">اقبالیه</option>-->
+                                    <!--<option value="">ارداق</option>-->
+                                    <!--<option value="">الوند</option>-->
+                                    <!--<option value="">بیدستان</option>-->
+                                    <!--<option value="">تاکستان</option>-->
+                                    <!--<option value="">دانسفهان</option>-->
+                                    <!--<option value="">سیردان</option>-->
+                                    <!--<option value="">شریفیه</option>-->
+                                    <!--<option value="">شال</option>-->
+                                    <!--<option value="">ضیاآیاد</option>-->
+                                    <!--<option value="">محمدیه</option>-->
+                                    <!--<option value="">مهرگان</option>-->
+                                </select>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-xs-4 nopadding">
+                    <div class="logo">
+                        <img src="asset/images/logo.png" alt="" class="image-responsive">
+
+                    </div>
+                </div>
+                <!-- menu ends -->
+            </div>
+        </div>
+
+    </header>
+
+    <!-- header ends -->
+</section>
+
+<section id="content">
+    <div class="clearfix" style="line-height: 40px!important;color: #fff!important">
+        <div class="search-slide col-lg-10 col-lg-offset-1 nopadding">
+
+
+
+            <ul class="nav nav-tabs pill-index">
+                <li class="active col-lg-4 col-xs-4 nopadding"><a data-toggle="tab" href="#buy">خرید</a></li>
+                <li class="col-lg-4 col-xs-4 nopadding"><a data-toggle="tab" href="#rent">اجاره</a></li>
+                <li class=" col-lg-4 col-xs-4 nopadding"><a data-toggle="tab" href="#presell">پیش خرید</a></li>
+            </ul>
+
+
+
+
+            <div class="tab-content">
+
+                <div id="buy" class="tab-pane fade  in active">
+                    <div class="advance-search">
+                        <form class="advance-search-form clearfix"  method="get">
+                            <div class="col-sm-3 col-xs-6 option-bar">
+                                <div class="selectwrap field placeholder">
+                                    <label class="active">نوع ملک</label>
+                                    <select  class="search-select type-state label" name="label" id="select">
+                                        <option class="light-gray" value="1" selected="selected">آپارتمانی</option>
+                                        <option class="light-gray" value="2">خانه/ویلایی</option>
+                                        <option class="light-gray" value="3">زمین</option>
+                                        <option class="light-gray" value="4">کلنگی</option>
+                                        <option class="light-gray" value="5">اداری</option>
+                                        <option class="light-gray" value="6">مغازه/تجاری</option>
+                                        <option class="light-gray" value="7">باغ/کشاورزی</option>
+                                        <option class="light-gray" value="8">کارخانه/کارگاه</option>
+                                    </select>
+
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3 col-xs-6 option-bar">
+                                <div class="selectwrap field placeholder">
+                                    <label class="active">منطقه</label>
+                                    <select id="multiselect" multiple="multiple"  name="label" class="label multiselect">
+                                        <option class="light-gray" value="1">بالای شهر</option>
+                                        <option class="light-gray" value="2">پایین شهر</option>
+                                        <option class="light-gray"  value="3">مرکز شهر</option>
+                                        <option class="light-gray" value="4">خارج شهر</option>
+                                        <option class="light-gray" value="5"> پونک</option>
+                                        <option class="light-gray" value="6"> ملاصدرا</option>
+                                        <option class="light-gray" value="7"> ولایت</option>
+                                        <option class="light-gray" value="8"> بلوار مدرس</option>
+                                        <option class="light-gray" value="9"> سرتک</option>
+                                        <option class="light-gray" value="10"> دانشگاه</option>
+                                        <option class="light-gray" value="11"> خیام</option>
+                                        <option class="light-gray" value="12"> آبگیلک</option>
+                                        <option class="light-gray" value="13"> جانبازان</option>
+                                    </select>
+
+                                </div>
+                            </div>
+
+
+
+
+
+
+                            <div class="col-sm-3 col-xs-6 option-bar">
+                                <div class="selectwrap field placeholder">
+                                    <label  class="active">  حداقل قیمت (تومان)</label>
+                                    <select class="js-example-basic-single statee label" type="text" name="label">
+                                        <option class="light-gray" value="" > </option>
+                                        <option class="light-gray"  value="1">10 میلیون تومان</option>
+                                        <option class="light-gray" value="2">20 میلیون تومان</option>
+                                        <option class="light-gray" value="3">40 میلیون تومان</option>
+                                        <option class="light-gray" value="4">60 میلیون تومان</option>
+                                        <option class="light-gray" value="5">80 میلیون تومان</option>
+                                        <option class="light-gray" value="6">100 میلیون تومان</option>
+                                        <option class="light-gray" value="7">120 میلیون تومان</option>
+                                        <option class="light-gray" value="8">140 میلیون تومان</option>
+                                        <option class="light-gray" value="9">160 میلیون تومان</option>
+                                        <option class="light-gray" value="10">180 میلیون تومان</option>
+                                        <option class="light-gray" value="11">200 میلیون تومان</option>
+                                    </select>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-xs-6 option-bar">
+                                <div class="selectwrap field placeholder">
+                                    <label  class="active">حداکثر قیمت (تومان)</label>
+                                    <select class="js-example-basic-single statee label" type="text">
+                                        <option class="light-gray" value="" > </option>
+                                        <option class="light-gray" value="1">10 میلیون تومان</option>
+                                        <option class="light-gray" value="2">20 میلیون تومان</option>
+                                        <option class="light-gray" value="3">40 میلیون تومان</option>
+                                        <option class="light-gray" value="4">60 میلیون تومان</option>
+                                        <option class="light-gray" value="5">80 میلیون تومان</option>
+                                        <option class="light-gray" value="6">100 میلیون تومان</option>
+                                        <option class="light-gray" value="7">120 میلیون تومان</option>
+                                        <option class="light-gray" value="8">140 میلیون تومان</option>
+                                        <option class="light-gray"  value="9">160 میلیون تومان</option>
+                                        <option class="light-gray" value="10">180 میلیون تومان</option>
+                                        <option class="light-gray" value="11">200 میلیون تومان</option>
+                                    </select>
+
+                                </div>
+                            </div>
+
+
+
+
+
+                            <div class="col-sm-3 col-xs-6 option-bar">
+                                <div class="selectwrap field placeholder">
+                                    <label class="active"> حداقل متراژ (متر)</label>
+
+                                    <select class="js-example-basic-single statee label" type="text">
+                                        <option class="light-gray" value="" > </option>
+                                        <option class="light-gray" value="1">کمتر از 20 متر</option>
+                                        <option class="light-gray" value="2">20 متر</option>
+                                        <option class="light-gray" value="3">30 متر</option>
+                                        <option class="light-gray" value="4">40 متر</option>
+                                        <option class="light-gray" value="5">50 متر</option>
+                                        <option class="light-gray" value="6">60 متر</option>
+                                        <option class="light-gray" value="7">70 متر</option>
+                                        <option class="light-gray" value="8">80 متر</option>
+                                        <option class="light-gray" value="9">90 متر</option>
+                                        <option class="light-gray" value="10">100 متر</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3 col-xs-6 option-bar">
+                                <div class="selectwrap field placeholder">
+                                    <label  class="active"> حداکثر متراژ (متر)</label>
+
+                                    <select class="js-example-basic-single statee label" type="text">
+                                        <option class="light-gray" value="" > </option>
+                                        <option class="light-gray" value="1">کمتر از 20 متر</option>
+                                        <option class="light-gray" value="2">20 متر</option>
+                                        <option class="light-gray" value="3">30 متر</option>
+                                        <option class="light-gray" value="4">40 متر</option>
+                                        <option class="light-gray" value="5">50 متر</option>
+                                        <option class="light-gray" value="6">60 متر</option>
+                                        <option class="light-gray" value="7">70 متر</option>
+                                        <option class="light-gray" value="8">80 متر</option>
+                                        <option class="light-gray" value="9">90 متر</option>
+                                        <option class="light-gray" value="10">100 متر</option>
+                                    </select>
+                                </div>
+                            </div>
+
+
+
+
+                            <div class="col-sm-3 col-xs-6 option-bar room-count">
+                                <div class="selectwrap field placeholder">
+                                    <label  class="active">تعداد اتاق</label>
+
+                                    <select  class="search-select label">
+                                        <option class="light-gray" value="1"> 1</option>
+                                        <option class="light-gray" value="2">2</option>
+                                        <option class="light-gray" value="3">3  </option>
+                                        <option class="light-gray" value="4"> 4</option>
+                                        <option class="light-gray" value="5">5</option>
+                                        <option class="light-gray" value="6">6   </option>
+                                        <option class="light-gray" value="any" selected="selected">مهم نیست</option>
+                                    </select>
+                                </div>
+                            </div>
+
+
+                            <div class="clearfix"></div>
+                            <div class="panel col-sm-12 nopadding">
+
+                                <div id="collapse-1" class="panel-collapse collapse">
+
+
+
+                                    <div class="col-sm-3 col-xs-6 option-bar location">
+                                        <div class="selectwrap field placeholder">
+                                            <label  class="active"> موقیعت</label>
+
+                                            <select id="multiselect1" multiple="multiple" class="multiselect">
+                                                <option value="1">شمالی</option>
+                                                <option value="2">جنوبی</option>
+                                                <option value="3">دو کله</option>
+                                                <option value="4">دو نبش</option>
+                                                <option value="5">سه نبش</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="col-sm-3 col-xs-6 option-bar age-state">
+                                        <div class="selectwrap field placeholder">
+                                            <label  class="active"> حداکثر عمر بنا(سال)</label>
+
+                                            <select  class="search-select label">
+                                                <option class="light-gray" value="1"> نوساز</option>
+                                                <option class="light-gray" value="2">1 ساله  </option>
+                                                <option class="light-gray" value="3">2ساله   </option>
+                                                <option class="light-gray" value="4">3ساله  </option>
+                                                <option class="light-gray" value="5">10 ساله  </option>
+                                                <option class="light-gray" value="any" selected="selected">مهم نیست</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-xs-6 option-bar floor-count">
+                                        <div class="selectwrap field placeholder">
+                                            <label  class="active"> از طبقه</label>
+
+                                            <select  class="search-select label">
+                                                <option class="light-gray" value="1"> 1طبقه</option>
+                                                <option class="light-gray" value="2">2 طبقه</option>
+                                                <option class="light-gray" value="3">3 طبقه</option>
+                                                <option class="light-gray" value="4">4 طبقه</option>
+                                                <option class="light-gray" value="any" selected="selected">مهم نیست</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-sm-3 col-xs-6 option-bar floor-count">
+                                        <div class="selectwrap field placeholder">
+                                            <label  class="active"> تا طبقه</label>
+
+                                            <select  class="search-select label">
+                                                <option class="light-gray" value="1"> 1طبقه</option>
+                                                <option class="light-gray" value="2">2 طبقه</option>
+                                                <option class="light-gray" value="3">3 طبقه</option>
+                                                <option class="light-gray" value="4">4 طبقه</option>
+                                                <option class="light-gray" value="any" selected="selected">مهم نیست</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-3 col-xs-6 option-bar unit-count">
+                                        <div class="selectwrap field placeholder">
+                                            <label  class="active">  حداکثر واحد</label>
+
+                                            <select class="search-select label">
+                                                <option class="light-gray" value="1"> 1 واحد</option>
+                                                <option class="light-gray" value="2">2واحد  </option>
+                                                <option class="light-gray" value="3">  3واحد </option>
+                                                <option class="light-gray" value="4">4 واحد  </option>
+                                                <option class="light-gray" value="any" selected="selected">مهم نیست</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-3 col-xs-6 option-bar tarakom" style="display: none">
+                                        <div class="selectwrap field placeholder">
+                                            <label  class="active">   تراکم</label>
+                                            <select  class="search-select label">
+                                                <option class="light-gray" value="2">2</option>
+                                                <option class="light-gray" value="3">3  </option>
+                                                <option class="light-gray" value="4"> 4</option>
+                                                <option class="light-gray" value="5">5</option>
+                                                <option class="light-gray" value="6">6 به بالا   </option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="clearfix"></div>
+
+
+                                    <div class="option-bar-morefilter col-lg-12 col-sm-12 nopadding">
+
+                                        <div class="col-lg-3 col-sm-3 col-xs-6 image-state">
+                                            <p>
+                                                <input type="checkbox" value="دارد"> ملک عکسدار
+                                            </p>
+                                        </div>
+
+                                        <div class="col-lg-3 col-sm-3 col-xs-6 elevator" >
+                                            <p>
+                                                <input type="checkbox" value="دارد"> آسانسوردار
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-3 col-sm-3 col-xs-6 parking" >
+                                            <p>
+                                                <input type="checkbox" value="دارد">  پارکینگ
+                                                دار
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-3 col-sm-3 col-xs-6 exchange" >
+                                            <p>
+                                                <input type="checkbox"  value="دارد"> معاوضه
+
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="type-adver col-lg-12 col-sm-12">
+                                        <div>نوع آگهی دهنده:</div>
+                                        <input type="radio" name="gender" value="1" checked> فرقی نمیکند<br>
+                                        <input type="radio" name="gender" value="2"> املاک 79<br>
+                                        <input type="radio" name="gender" value="3"> شخصی<br>
+                                        <input type="radio" name="gender" value="4"> سایر املاک
+                                    </div>
+
+
+
+
+
+
+
+
+
+
+                                </div>
+
+                                <div class="panel-heading col-lg-12 col-xs-6">
+                                    <h4 class="panel-title">
+
+                                        <div class="arrow-down" onclick="this.classList.toggle('active')"><a data-toggle="collapse" data-parent="#accordion" href="#collapse-1">فیلتر بیشتر</a></div>
+                                    </h4>
+                                </div>
+                            </div>
+
+                            <div class="option-bar col-lg-3 col-sm-3 col-xs-6 col-lg-offset-9 search-button ">
+                                <input type="submit" value="جستجو" class=" real-btn btn">
+                            </div>
+
+
+                        </form>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div id="rent" class="tab-pane fade">
+                    <div class="advance-search ">
+                        <form class="advance-search-form clearfix"  method="get">
+
+                            <div class="col-sm-3 col-xs-6 option-bar">
+                                <div class="selectwrap field placeholder">
+                                    <label class="active">نوع ملک</label>
+                                    <select  class="search-select type-state label">
+                                        <option class="light-gray" value="1" selected="selected">آپارتمانی</option>
+                                        <option class="light-gray" value="2">خانه/ویلایی</option>
+                                        <option class="light-gray" value="3">زمین</option>
+                                        <option class="light-gray" value="4">کلنگی</option>
+                                        <option class="light-gray" value="5">اداری</option>
+                                        <option class="light-gray" value="6">مغازه/تجاری</option>
+                                        <option class="light-gray" value="7">باغ/کشاورزی</option>
+                                        <option class="light-gray" value="8">کارخانه/کارگاه</option>
+                                    </select>
+
+                                </div>
+                            </div>
+
+
+
+                            <div class="col-sm-3 col-xs-6 option-bar">
+                                <div class="selectwrap field placeholder">
+                                    <label class="active">منطقه</label>
+                                    <select id="multiselect3" multiple="multiple" class="multiselect label">
+                                        <option class="light-gray" value="1">بالای شهر</option>
+                                        <option class="light-gray" value="2">پایین شهر</option>
+                                        <option class="light-gray" value="3">مرکز شهر</option>
+                                        <option class="light-gray" value="4">خارج شهر</option>
+                                        <option class="light-gray" value="5"> پونک</option>
+                                        <option class="light-gray" value="6"> ملاصدرا</option>
+                                        <option class="light-gray" value="7"> ولایت</option>
+                                        <option class="light-gray" value="8"> بلوار مدرس</option>
+                                        <option class="light-gray" value="9"> سرتک</option>
+                                        <option class="light-gray" value="10"> دانشگاه</option>
+                                        <option class="light-gray" value="11"> خیام</option>
+                                        <option class="light-gray" value="12"> آبگیلک</option>
+                                        <option class="light-gray" value="13"> جانبازان</option>
+                                    </select>
+
+                                </div>
+                            </div>
+
+
+
+
+                            <div class="col-sm-3 col-xs-6 option-bar">
+                                <div class="selectwrap field placeholder">
+                                    <label  class="active">  حداقل  رهن(تومان)</label>
+                                    <select class="js-example-basic-single statee label" type="text">
+                                        <option value=""></option>
+                                        <option class="light-gray" value="1">10 میلیون تومان</option>
+                                        <option class="light-gray" value="2">20 میلیون تومان</option>
+                                        <option class="light-gray" value="3">40 میلیون تومان</option>
+                                        <option class="light-gray" value="4">60 میلیون تومان</option>
+                                        <option class="light-gray" value="5">80 میلیون تومان</option>
+                                        <option class="light-gray" value="6">100 میلیون تومان</option>
+                                        <option class="light-gray" value="7">120 میلیون تومان</option>
+                                        <option class="light-gray" value="8">140 میلیون تومان</option>
+                                        <option class="light-gray" value="9">160 میلیون تومان</option>
+                                        <option class="light-gray" value="10">180 میلیون تومان</option>
+                                        <option class="light-gray" value="11">200 میلیون تومان</option>
+
+                                    </select>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-xs-6 option-bar">
+                                <div class="selectwrap field placeholder">
+                                    <label  class="active">  حداکثر رهن(تومان)</label>
+                                    <select class="js-example-basic-single statee label" type="text">
+                                        <option value=""></option>
+                                        <option class="light-gray" value="1">10 میلیون تومان</option>
+                                        <option class="light-gray" value="2">20 میلیون تومان</option>
+                                        <option class="light-gray" value="3">40 میلیون تومان</option>
+                                        <option class="light-gray" value="4">60 میلیون تومان</option>
+                                        <option class="light-gray" value="5">80 میلیون تومان</option>
+                                        <option class="light-gray" value="6">100 میلیون تومان</option>
+                                        <option class="light-gray" value="7">120 میلیون تومان</option>
+                                        <option class="light-gray" value="8">140 میلیون تومان</option>
+                                        <option class="light-gray" value="9">160 میلیون تومان</option>
+                                        <option class="light-gray" value="10">180 میلیون تومان</option>
+                                        <option class="light-gray" value="11">200 میلیون تومان</option>
+
+                                    </select>
+
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+                            <div class="col-sm-3 col-xs-6 option-bar">
+                                <div class="selectwrap field placeholder">
+                                    <label  class="active">   حداقل  اجاره(تومان)</label>
+                                    <select class="js-example-basic-single statee label" type="text">
+                                        <option value=""></option>
+                                        <option class="light-gray" value="1">10 میلیون تومان</option>
+                                        <option class="light-gray" value="2">20 میلیون تومان</option>
+                                        <option class="light-gray" value="3">40 میلیون تومان</option>
+                                        <option class="light-gray" value="4">60 میلیون تومان</option>
+                                        <option class="light-gray" value="5">80 میلیون تومان</option>
+                                        <option class="light-gray" value="6">100 میلیون تومان</option>
+                                        <option class="light-gray" value="7">120 میلیون تومان</option>
+                                        <option class="light-gray" value="8">140 میلیون تومان</option>
+                                        <option class="light-gray" value="9">160 میلیون تومان</option>
+                                        <option class="light-gray" value="10">180 میلیون تومان</option>
+                                        <option class="light-gray" value="11">200 میلیون تومان</option>
+
+                                    </select>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-xs-6 option-bar">
+                                <div class="selectwrap field placeholder">
+                                    <label  class="active">  حداکثر  اجاره(تومان)</label>
+                                    <select class="js-example-basic-single statee label" type="text">
+                                        <option value=""></option>
+                                        <option class="light-gray" value="1">10 میلیون تومان</option>
+                                        <option class="light-gray" value="2">20 میلیون تومان</option>
+                                        <option class="light-gray" value="3">40 میلیون تومان</option>
+                                        <option class="light-gray" value="4">60 میلیون تومان</option>
+                                        <option class="light-gray" value="5">80 میلیون تومان</option>
+                                        <option class="light-gray" value="6">100 میلیون تومان</option>
+                                        <option class="light-gray" value="7">120 میلیون تومان</option>
+                                        <option class="light-gray" value="8">140 میلیون تومان</option>
+                                        <option class="light-gray" value="9">160 میلیون تومان</option>
+                                        <option class="light-gray" value="10">180 میلیون تومان</option>
+                                        <option class="light-gray" value="11">200 میلیون تومان</option>
+
+                                    </select>
+
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                            <div class="col-sm-3 col-xs-6 option-bar">
+                                <div class="selectwrap field placeholder">
+                                    <label class="active"> حداقل متراژ (متر)</label>
+
+                                    <select class="js-example-basic-single statee label" type="text">
+                                        <option class="light-gray" value="" > </option>
+                                        <option class="light-gray" value="1">کمتر از 20 متر</option>
+                                        <option class="light-gray" value="2">20 متر</option>
+                                        <option class="light-gray" value="3">30 متر</option>
+                                        <option class="light-gray" value="4">40 متر</option>
+                                        <option class="light-gray" value="5">50 متر</option>
+                                        <option class="light-gray" value="6">60 متر</option>
+                                        <option class="light-gray" value="7">70 متر</option>
+                                        <option class="light-gray" value="8">80 متر</option>
+                                        <option class="light-gray" value="9">90 متر</option>
+                                        <option class="light-gray" value="10">100 متر</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3 col-xs-6 option-bar">
+                                <div class="selectwrap field placeholder">
+                                    <label  class="active"> حداکثر متراژ (متر)</label>
+
+                                    <select class="js-example-basic-single statee label" type="text">
+                                        <option class="light-gray" value="" > </option>
+                                        <option class="light-gray" value="1">کمتر از 20 متر</option>
+                                        <option class="light-gray" value="2">20 متر</option>
+                                        <option class="light-gray" value="3">30 متر</option>
+                                        <option class="light-gray" value="4">40 متر</option>
+                                        <option class="light-gray" value="5">50 متر</option>
+                                        <option class="light-gray" value="6">60 متر</option>
+                                        <option class="light-gray" value="7">70 متر</option>
+                                        <option class="light-gray" value="8">80 متر</option>
+                                        <option class="light-gray" value="9">90 متر</option>
+                                        <option class="light-gray" value="10">100 متر</option>
+                                    </select>
+                                </div>
+                            </div>
+
+
+                            <div class="col-sm-3 col-xs-6 option-bar room-count">
+                                <div class="selectwrap field placeholder">
+                                    <label  class="active">تعداد اتاق</label>
+
+                                    <select  class="search-select label">
+                                        <option class="light-gray" value="1"> 1</option>
+                                        <option class="light-gray" value="2">2</option>
+                                        <option class="light-gray" value="3">3  </option>
+                                        <option class="light-gray" value="4"> 4</option>
+                                        <option class="light-gray" value="5">5</option>
+                                        <option class="light-gray" value="6">6   </option>
+                                        <option class="light-gray" value="any" selected="selected">مهم نیست</option>
+                                    </select>
+                                </div>
+                            </div>
+
+
+                            <div class="clearfix"></div>
+                            <div class="panel col-sm-12 nopadding">
+
+                                <div id="collapse-2" class="panel-collapse collapse">
+
+
+                                    <div class="col-sm-3 col-xs-6 option-bar location">
+                                        <div class="selectwrap field placeholder">
+                                            <label  class="active"> موقیعت</label>
+
+                                            <select id="multiselect2" multiple="multiple" class="multiselect">
+                                                <option value="1">شمالی</option>
+                                                <option value="2">جنوبی</option>
+                                                <option value="3">دو کله</option>
+                                                <option value="4">دو نبش</option>
+                                                <option value="5">سه نبش</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+
+
+
+                                    <div class="col-sm-3 col-xs-6 option-bar age-state">
+                                        <div class="selectwrap field placeholder">
+                                            <label  class="active"> حداکثر عمر بنا(سال)</label>
+
+                                            <select  class="search-select label">
+                                                <option class="light-gray" value="1"> نوساز</option>
+                                                <option class="light-gray" value="2">1 ساله  </option>
+                                                <option class="light-gray" value="3">2ساله   </option>
+                                                <option class="light-gray" value="4">3ساله  </option>
+                                                <option class="light-gray" value="5">10 ساله  </option>
+                                                <option class="light-gray" value="any" selected="selected">مهم نیست</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-xs-6 option-bar floor-count">
+                                        <div class="selectwrap field placeholder">
+                                            <label  class="active"> از طبقه</label>
+
+                                            <select  class="search-select label">
+                                                <option class="light-gray" value="1"> 1طبقه</option>
+                                                <option class="light-gray" value="2">2 طبقه</option>
+                                                <option class="light-gray" value="3">3 طبقه</option>
+                                                <option class="light-gray" value="4">4 طبقه</option>
+                                                <option class="light-gray" value="any" selected="selected">مهم نیست</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-sm-3 col-xs-6 option-bar floor-count">
+                                        <div class="selectwrap field placeholder">
+                                            <label  class="active"> تا طبقه</label>
+
+                                            <select  class="search-select label">
+                                                <option class="light-gray" value="1"> 1طبقه</option>
+                                                <option class="light-gray" value="2">2 طبقه</option>
+                                                <option class="light-gray" value="3">3 طبقه</option>
+                                                <option class="light-gray" value="4">4 طبقه</option>
+                                                <option class="light-gray" value="any" selected="selected">مهم نیست</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-3 col-xs-6 option-bar unit-count">
+                                        <div class="selectwrap field placeholder">
+                                            <label  class="active">  حداکثر واحد</label>
+
+                                            <select class="search-select label">
+                                                <option class="light-gray" value="1"> 1 واحد</option>
+                                                <option class="light-gray" value="2">2واحد  </option>
+                                                <option class="light-gray" value="3">  3واحد </option>
+                                                <option class="light-gray" value="4">4 واحد  </option>
+                                                <option class="light-gray" value="any" selected="selected">مهم نیست</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-3 col-xs-6 option-bar tarakom" style="display: none">
+                                        <div class="selectwrap field placeholder">
+                                            <label  class="active">   تراکم</label>
+                                            <select  class="search-select label">
+                                                <option class="light-gray" value="2">2</option>
+                                                <option class="light-gray" value="3">3  </option>
+                                                <option class="light-gray" value="4"> 4</option>
+                                                <option class="light-gray" value="5">5</option>
+                                                <option class="light-gray" value="6">6 به بالا   </option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="clearfix"></div>
+
+                                    <div class="option-bar-morefilter col-lg-12 col-sm-12 nopadding">
+
+                                        <div class="col-lg-3 col-sm-3 col-xs-6 image-state">
+                                            <p>
+                                                <input type="checkbox" value="دارد"> ملک عکسدار
+                                            </p>
+                                        </div>
+
+                                        <div class="col-lg-3 col-sm-3 col-xs-6 elevator" >
+                                            <p>
+                                                <input type="checkbox" value="دارد"> آسانسوردار
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-3 col-sm-3 col-xs-6 parking" >
+                                            <p>
+                                                <input type="checkbox" value="دارد">  پارکینگ
+                                                دار
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-3 col-sm-3 col-xs-6 exchange" >
+                                            <p>
+                                                <input type="checkbox"  value="دارد"> معاوضه
+
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="type-adver col-lg-12 col-sm-12">
+                                        <div>نوع آگهی دهنده:</div>
+                                        <input type="radio" name="gender" value="1" checked> فرقی نمیکند<br>
+                                        <input type="radio" name="gender" value="2"> املاک 79<br>
+                                        <input type="radio" name="gender" value="3"> شخصی<br>
+                                        <input type="radio" name="gender" value="4"> سایر املاک
+                                    </div>
+
+
+
+                                </div>
+
+
+                                <div class="panel-heading col-lg-12 col-xs-6">
+                                    <h4 class="panel-title">
+
+                                        <div class="arrow-down" onclick="this.classList.toggle('active')"><a data-toggle="collapse" data-parent="#accordion" href="#collapse-2">فیلتر بیشتر</a></div>
+                                    </h4>
+                                </div>
+
+
+                            </div>
+
+
+
+                            <div class="option-bar col-lg-3 col-sm-3 col-xs-6 col-lg-offset-9 search-button ">
+                                <input type="submit" value="جستجو" class=" real-btn btn">
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+
+                <div id="presell" class="tab-pane fade">
+                    <div class="advance-search ">
+                        <form class="advance-search-form clearfix"  method="get">
+
+
+
+
+                            <div class="col-sm-3 col-xs-6 option-bar">
+                                <div class="selectwrap field placeholder">
+                                    <label class="active">نوع ملک</label>
+                                    <select  class="search-select type-state label" name="label">
+                                        <option class="light-gray" value="1" selected="selected">آپارتمانی</option>
+                                        <option class="light-gray" value="2">خانه/ویلایی</option>
+                                        <option class="light-gray" value="3">زمین</option>
+                                        <option class="light-gray" value="4">کلنگی</option>
+                                        <option class="light-gray" value="5">اداری</option>
+                                        <option class="light-gray" value="6">مغازه/تجاری</option>
+                                        <option class="light-gray" value="7">باغ/کشاورزی</option>
+                                        <option class="light-gray" value="8">کارخانه/کارگاه</option>
+                                    </select>
+
+                                </div>
+                            </div>
+
+
+
+                            <div class="col-sm-3 col-xs-6 option-bar">
+                                <div class="selectwrap field placeholder">
+                                    <label class="active">منطقه</label>
+                                    <select id="multiselect4" multiple="multiple"  name="label" class="label multiselect">
+                                        <option class="light-gray" value="1">بالای شهر</option>
+                                        <option class="light-gray" value="2">پایین شهر</option>
+                                        <option class="light-gray"  value="3">مرکز شهر</option>
+                                        <option class="light-gray" value="4">خارج شهر</option>
+                                        <option class="light-gray" value="5"> پونک</option>
+                                        <option class="light-gray" value="6"> ملاصدرا</option>
+                                        <option class="light-gray" value="7"> ولایت</option>
+                                        <option class="light-gray" value="8"> بلوار مدرس</option>
+                                        <option class="light-gray" value="9"> سرتک</option>
+                                        <option class="light-gray" value="10"> دانشگاه</option>
+                                        <option class="light-gray" value="11"> خیام</option>
+                                        <option class="light-gray" value="12"> آبگیلک</option>
+                                        <option class="light-gray" value="13"> جانبازان</option>
+                                    </select>
+
+                                </div>
+                            </div>
+
+
+
+                            <div class="col-sm-3 col-xs-6 option-bar">
+                                <div class="selectwrap field placeholder">
+                                    <label  class="active">  حداقل قیمت (تومان)</label>
+                                    <select class="js-example-basic-single statee label" type="text" name="label">
+                                        <option class="light-gray"  value=""></option>
+                                        <option class="light-gray"  value="1">10 میلیون تومان</option>
+                                        <option class="light-gray" value="2">20 میلیون تومان</option>
+                                        <option class="light-gray" value="3">40 میلیون تومان</option>
+                                        <option class="light-gray" value="4">60 میلیون تومان</option>
+                                        <option class="light-gray" value="5">80 میلیون تومان</option>
+                                        <option class="light-gray" value="6">100 میلیون تومان</option>
+                                        <option class="light-gray" value="7">120 میلیون تومان</option>
+                                        <option class="light-gray" value="8">140 میلیون تومان</option>
+                                        <option class="light-gray" value="9">160 میلیون تومان</option>
+                                        <option class="light-gray" value="10">180 میلیون تومان</option>
+                                        <option class="light-gray" value="11">200 میلیون تومان</option>
+
+                                    </select>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-xs-6 option-bar">
+                                <div class="selectwrap field placeholder">
+                                    <label  class="active">حداکثر قیمت (تومان)</label>
+                                    <select class="js-example-basic-single statee label" type="text">
+                                        <option class="light-gray"  value=""></option>
+                                        <option class="light-gray" value="1">10 میلیون تومان</option>
+                                        <option class="light-gray" value="2">20 میلیون تومان</option>
+                                        <option class="light-gray" value="3">40 میلیون تومان</option>
+                                        <option class="light-gray" value="4">60 میلیون تومان</option>
+                                        <option class="light-gray" value="5">80 میلیون تومان</option>
+                                        <option class="light-gray" value="6">100 میلیون تومان</option>
+                                        <option class="light-gray" value="7">120 میلیون تومان</option>
+                                        <option class="light-gray" value="8">140 میلیون تومان</option>
+                                        <option class="light-gray"  value="9">160 میلیون تومان</option>
+                                        <option class="light-gray" value="10">180 میلیون تومان</option>
+                                        <option class="light-gray" value="11">200 میلیون تومان</option>
+
+                                    </select>
+
+                                </div>
+                            </div>
+
+
+
+
+                            <div class="col-sm-3 col-xs-6 option-bar">
+                                <div class="selectwrap field placeholder">
+                                    <label class="active"> حداقل متراژ (متر)</label>
+
+                                    <select class="js-example-basic-single statee label" type="text">
+                                        <option class="light-gray" value="" > </option>
+                                        <option class="light-gray" value="1">کمتر از 20 متر</option>
+                                        <option class="light-gray" value="2">20 متر</option>
+                                        <option class="light-gray" value="3">30 متر</option>
+                                        <option class="light-gray" value="4">40 متر</option>
+                                        <option class="light-gray" value="5">50 متر</option>
+                                        <option class="light-gray" value="6">60 متر</option>
+                                        <option class="light-gray" value="7">70 متر</option>
+                                        <option class="light-gray" value="8">80 متر</option>
+                                        <option class="light-gray" value="9">90 متر</option>
+                                        <option class="light-gray" value="10">100 متر</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-3 col-xs-6 option-bar">
+                                <div class="selectwrap field placeholder">
+                                    <label  class="active"> حداکثر متراژ (متر)</label>
+
+                                    <select class="js-example-basic-single statee label" type="text">
+                                        <option class="light-gray" value="" > </option>
+                                        <option class="light-gray" value="1">کمتر از 20 متر</option>
+                                        <option class="light-gray" value="2">20 متر</option>
+                                        <option class="light-gray" value="3">30 متر</option>
+                                        <option class="light-gray" value="4">40 متر</option>
+                                        <option class="light-gray" value="5">50 متر</option>
+                                        <option class="light-gray" value="6">60 متر</option>
+                                        <option class="light-gray" value="7">70 متر</option>
+                                        <option class="light-gray" value="8">80 متر</option>
+                                        <option class="light-gray" value="9">90 متر</option>
+                                        <option class="light-gray" value="10">100 متر</option>
+                                    </select>
+                                </div>
+                            </div>
+
+
+
+
+                            <div class="col-sm-3 col-xs-6 option-bar room-count">
+                                <div class="selectwrap field placeholder">
+                                    <label  class="active">تعداد اتاق</label>
+
+                                    <select  class="search-select label">
+                                        <option class="light-gray" value="1"> 1</option>
+                                        <option class="light-gray" value="2">2</option>
+                                        <option class="light-gray" value="3">3  </option>
+                                        <option class="light-gray" value="4"> 4</option>
+                                        <option class="light-gray" value="5">5</option>
+                                        <option class="light-gray" value="6">6   </option>
+                                        <option class="light-gray" value="any" selected="selected">مهم نیست</option>
+                                    </select>
+                                </div>
+                            </div>
+
+
+
+
+
+                            <div class="clearfix"></div>
+                            <div class="panel col-sm-12 nopadding">
+
+                                <div id="collapse-3" class="panel-collapse collapse">
+
+
+
+                                    <div class="col-sm-3 col-xs-6 option-bar location">
+                                        <div class="selectwrap field placeholder">
+                                            <label  class="active"> موقیعت</label>
+
+                                            <select id="multiselect5" multiple="multiple" class="multiselect label">
+                                                <option  class="light-gray" value="1">شمالی</option>
+                                                <option class="light-gray" value="2">جنوبی</option>
+                                                <option class="light-gray" value="3">دو کله</option>
+                                                <option class="light-gray" value="4">دو نبش</option>
+                                                <option class="light-gray" value="5">سه نبش</option>
+
+                                            </select>
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                    <div class="col-sm-3 col-xs-6 option-bar floor-count">
+                                        <div class="selectwrap field placeholder">
+                                            <label  class="active"> از طبقه</label>
+
+                                            <select  class="search-select label">
+                                                <option class="light-gray" value="1"> 1طبقه</option>
+                                                <option class="light-gray" value="2">2 طبقه</option>
+                                                <option class="light-gray" value="3">3 طبقه</option>
+                                                <option class="light-gray" value="4">4 طبقه</option>
+                                                <option class="light-gray" value="any" selected="selected">مهم نیست</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-3 col-xs-6 option-bar floor-count">
+                                        <div class="selectwrap field placeholder">
+                                            <label  class="active"> تا طبقه</label>
+
+                                            <select  class="search-select label">
+                                                <option class="light-gray" value="1"> 1طبقه</option>
+                                                <option class="light-gray" value="2">2 طبقه</option>
+                                                <option class="light-gray" value="3">3 طبقه</option>
+                                                <option class="light-gray" value="4">4 طبقه</option>
+                                                <option class="light-gray" value="any" selected="selected">مهم نیست</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+
+
+
+                                    <div class="col-sm-3 col-xs-6 option-bar unit-count">
+                                        <div class="selectwrap field placeholder">
+                                            <label  class="active">  حداکثر واحد</label>
+
+                                            <select class="search-select label">
+                                                <option class="light-gray" value="1"> 1 واحد</option>
+                                                <option class="light-gray" value="2">2واحد  </option>
+                                                <option class="light-gray" value="3">  3واحد </option>
+                                                <option class="light-gray" value="4">4 واحد  </option>
+                                                <option class="light-gray" value="any" selected="selected">مهم نیست</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+
+
+
+                                    <div class="clearfix"></div>
+
+                                    <div class="option-bar-morefilter col-lg-12 col-sm-12 nopadding">
+
+                                        <div class="col-lg-3 col-sm-3 col-xs-6 image-state">
+                                            <p>
+                                                <input type="checkbox" value="دارد"> ملک عکسدار
+                                            </p>
+                                        </div>
+
+                                        <div class="col-lg-3 col-sm-3 col-xs-6 elevator" >
+                                            <p>
+                                                <input type="checkbox" value="دارد"> آسانسوردار
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-3 col-sm-3 col-xs-6 parking" >
+                                            <p>
+                                                <input type="checkbox" value="دارد">  پارکینگ
+                                                دار
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-3 col-sm-3 col-xs-6 exchange" >
+                                            <p>
+                                                <input type="checkbox"  value="دارد"> معاوضه
+
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="type-adver col-lg-12 col-sm-12">
+                                        <div>نوع آگهی دهنده:</div>
+                                        <input type="radio" name="gender" value="1" checked> فرقی نمیکند<br>
+                                        <input type="radio" name="gender" value="2"> املاک 79<br>
+                                        <input type="radio" name="gender" value="3"> شخصی<br>
+                                        <input type="radio" name="gender" value="4"> سایر املاک
+                                    </div>
+
+
+
+
+
+
+                                </div>
+
+
+
+
+                                <div class="panel-heading col-lg-12 col-xs-6">
+                                    <h4 class="panel-title">
+
+                                        <div class="arrow-down" onclick="this.classList.toggle('active')"><a data-toggle="collapse" data-parent="#accordion" href="#collapse-3">فیلتر بیشتر</a></div>
+                                    </h4>
+                                </div>
+
+
+                            </div>
+
+
+                            <div class="option-bar col-lg-3 col-sm-3 col-xs-6 col-lg-offset-9 search-button ">
+                                <input type="submit" value="جستجو" class=" real-btn btn">
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+        </div>
+
+    </div><!-- End Slider -->
+
+    <!-- Main Content -->
+    <div class="content-boxes">
+        <div class="property-items">
+            <br>
+            <div id="users">
+                <div class="container">
+                    <div class="property-items-container clearfix">
+
+
+                        <div class="sort-group-btn">
+                            <div class="sort-buttons">
+                                <label class="dropdown-sort">
+
+                                    <div>
+                                        <i class="fa fa-sort-amount-desc fa-lg"></i>
+                                    </div>
+
+                                    <input type="checkbox" class="dd-input" id="test">
+                                    <ul class="dd-menu">
+                                        <li><i class="fa fa-sort-amount-desc"></i>مرتب سازی بر اساس تاریخ </li>
+                                        <li><i class="fa fa-sort-amount-asc "></i>حداقل قیمت  </li>
+                                        <li> <i class="fa fa-sort-amount-desc "></i> حداکثر قیمت   </li>
+                                        <li>  <i class="fa fa-sort-amount-asc "></i>حداقل متراژ </li>
+                                        <li> <i class="fa fa-sort-amount-desc "></i> حداکثر متراژ </li>
+                                    </ul>
+
+                                </label>
+
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+                        <div class="list-group list">
+
+
+                            <div class="col-lg-4 col-sm-6 col-xs-12">
+                                <a href="single-show.html">
+                                    <div class="index-item">
+
+                                        <div class="item-body clearfix">
+                                            <a href="single-show.html" target="_blank" class="thumbnail">
+                                                <div class="ribbon-box">
+                                                    <p>ویژه</p>
+                                                    <span class="ribbon"></span>
+                                                </div>
+                                                <img src="asset/images/1.jpg" alt="فروش آپارتمانی به متراژ ۲۰۶ خیام شمالی" class="img-responsive">
+                                                <div class="textonimg">اجاره:800,000 تومان </div>
+
+                                            </a>
+
+                                            <div class="content">
+                                                <a href="single-show.html" target="_blank">
+                                                    <p class="title-home">فروش آپارتمانی به متراژ <span class="name">79</span> خیام شمالی</p>
+                                                </a>
+
+                                                <p class="home-facility">
+                                                    4  واحده  |  طبقه 3 |
+                                                    2 ساله     </p>
+                                                <p class="facilities"> آسانسور | پارکینگ </p>
+                                                <a href="#" target="_blank">
+                                                    <span class="price-home">  رهن:<span class="title price">1,563,000,000</span>     تومان </span>
+                                                </a>
+
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+
+                            <div class="col-lg-4 col-sm-6 col-xs-12 ">
+                                <a href="#" >
+                                    <div class="index-item">
+                                        <div class="item-body clearfix">
+                                            <a href="#" target="_blank" class="thumbnail">
+                                                <div class="ribbon-box">
+                                                    <p>ویژه</p>
+                                                    <span class="ribbon"></span>
+                                                </div>
+                                                <img src="asset/images/2.jpg" alt="فروش آپارتمانی به متراژ ۲۰۶ خیام شمالی" class="img-responsive">
+                                            </a>
+                                            <div class="content ">
+                                                <a href="#" target="_blank">
+                                                    <p class="title-home">فروش آپارتمانی به متراژ <span class="name">54</span> خیام شمالی</p>
+                                                </a>
+
+
+                                                <p class="home-facility">
+                                                    4  واحده  |  طبقه 3 |
+
+                                                    2 ساله     </p>
+
+
+                                                <p class="facilities"> آسانسور | پارکینگ </p>
+                                                <a href="#" target="_blank">
+                                                    <span class="price-home"> <span class="title price">520,000,000</span>     تومان </span>
+                                                </a>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+
+
+                            <div class="col-lg-4 col-sm-6 col-xs-12 ">
+                                <a href="#">
+                                    <div class="index-item">
+                                        <div class="item-body clearfix">
+                                            <a href="#" target="_blank" class="thumbnail">
+                                                <img src="asset/images/3.jpg" alt="فروش آپارتمانی به متراژ ۲۰۶ خیام شمالی" class="img-responsive">
+                                                <div class="textonimg">اجاره:800,000 تومان </div>
+                                            </a>
+                                            <div class="content">
+                                                <a href="#" target="_blank">
+                                                    <p class="title-home">فروش آپارتمانی به متراژ <span class="name">6</span> خیام شمالی</p>
+                                                </a>
+
+
+
+                                                <p class="home-facility">
+                                                    4  واحده  |  طبقه 3 |
+
+                                                    2 ساله     </p>
+
+
+                                                <p class="facilities"> آسانسور | پارکینگ </p>
+                                                <a href="#" target="_blank">
+                                                    <span class="price-home">   رهن:  <span class="title price">1,888,000,000</span>  تومان </span>
+                                                </a>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-4 col-sm-6 col-xs-12 ">
+
+                                <a href="#" >
+                                    <div class="index-item">
+                                        <div class="item-body clearfix">
+                                            <a href="#" target="_blank" class="thumbnail">
+                                                <img src="asset/images/4.jpg" alt="فروش آپارتمانی به متراژ ۲۰۶ خیام شمالی" class="img-responsive">
+                                            </a>
+                                            <div class="content">
+                                                <a href="#" target="_blank">
+                                                    <p class="title-home">فروش آپارتمانی به متراژ <span class="name">600</span> خیام شمالی</p>
+                                                </a>
+
+
+                                                <p class="home-facility">
+                                                    4  واحده  |  طبقه 3 |
+
+                                                    2 ساله     </p>
+
+
+                                                <p class="facilities"> آسانسور | پارکینگ </p>
+
+                                                <a href="#" target="_blank">
+                                                    <span class="price-home">  <span class="title price">89,000,000</span>   تومان </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-4 col-sm-6 col-xs-12 ">
+
+                                <a href="#" >
+                                    <div class="index-item">
+                                        <div class="item-body clearfix">
+                                            <a href="#" target="_blank" class="thumbnail">
+                                                <img src="asset/images/1.jpg" alt="فروش آپارتمانی به متراژ ۲۰۶ خیام شمالی" class="img-responsive">
+                                                <div class="textonimg">اجاره:800,000 تومان </div>
+                                            </a>
+                                            <div class="content">
+                                                <a href="#" target="_blank">
+                                                    <p class="title-home">فروش آپارتمانی به متراژ <span class="name">55</span> خیام شمالی</p>
+                                                </a>
+
+
+                                                <p class="home-facility">
+                                                    4  واحده  |  طبقه 3 |
+
+                                                    2 ساله     </p>
+
+
+                                                <p class="facilities"> آسانسور | پارکینگ </p>
+                                                <a href="#" target="_blank">
+                                                    <span class="price-home">   رهن: <span class="title price">909,000,000</span>   تومان </span>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-4 col-sm-6 col-xs-12 ">
+
+                                <a href="#" >
+                                    <div class="index-item">
+                                        <div class="item-body clearfix">
+
+                                            <a href="#" target="_blank" class="thumbnail">
+                                                <div class="ribbon-box">
+                                                    <p>ویژه</p>
+                                                    <span class="ribbon"></span>
+                                                </div>
+                                                <img src="asset/images/2.jpg" alt="فروش آپارتمانی به متراژ ۲۰۶ خیام شمالی" class="img-responsive">
+                                            </a>
+
+                                            <div class="content ">
+                                                <a href="#" target="_blank">
+                                                    <p class="title-home">فروش آپارتمانی به متراژ <span class="name">76</span> خیام شمالی</p>
+                                                </a>
+
+
+                                                <p class="home-facility">
+                                                    4  واحده  |  طبقه 3 |
+
+                                                    2 ساله     </p>
+
+
+                                                <p class="facilities"> آسانسور | پارکینگ </p>
+                                                <a href="#" target="_blank">
+                                                    <span class="price-home"> <span class="title price">100,000,000</span>    تومان  </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-4 col-sm-6 col-xs-12 ">
+
+                                <a href="#">
+                                    <div class="index-item">
+                                        <div class="item-body clearfix">
+                                            <a href="#" target="_blank" class="thumbnail">
+                                                <img src="asset/images/2.jpg" alt="فروش آپارتمانی به متراژ ۲۰۶ خیام شمالی" class="img-responsive">
+                                            </a>
+                                            <div class="content">
+                                                <a href="#" target="_blank">
+                                                    <p class="title-home">فروش آپارتمانی به متراژ <span class="name">111</span> خیام شمالی</p>
+                                                </a>
+
+
+
+                                                <p class="home-facility">
+                                                    4  واحده  |  طبقه 3 |
+
+                                                    2 ساله     </p>
+
+
+                                                <p class="facilities"> آسانسور | پارکینگ </p>
+                                                <a href="#" target="_blank">
+                                                    <span class="price-home">   <span class="title price">709,000,000</span>   تومان </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-lg-4 col-sm-6 col-xs-12 ">
+
+                                <a href="#" >
+                                    <div class="index-item">
+                                        <div class="item-body clearfix">
+                                            <a href="#" target="_blank" class="thumbnail">
+                                                <div class="ribbon-box">
+                                                    <p>ویژه</p>
+                                                    <span class="ribbon"></span>
+                                                </div>
+                                                <img src="asset/images/3.jpg" alt="فروش آپارتمانی به متراژ ۲۰۶ خیام شمالی" class="img-responsive">
+                                            </a>
+                                            <div class="content">
+                                                <a href="#" target="_blank">
+                                                    <p class="title-home">فروش آپارتمانی به متراژ <span class="name">43</span> خیام شمالی</p>
+                                                </a>
+
+
+
+                                                <p class="home-facility">
+                                                    4  واحده  |  طبقه 3 |
+
+                                                    2 ساله     </p>
+
+
+                                                <p class="facilities"> آسانسور | پارکینگ </p>
+                                                <a href="#" target="_blank">
+                                                    <span class="price-home">    <span class="title price">502,000,000</span>  تومان </span>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="col-lg-4 col-sm-6 col-xs-12 ">
+                                <a href="#" >
+                                    <div class="index-item">
+                                        <div class="item-body clearfix">
+                                            <a href="#" target="_blank" class="thumbnail">
+                                                <img src="asset/images/4.jpg" alt="فروش آپارتمانی به متراژ ۲۰۶ خیام شمالی" class="img-responsive">
+                                            </a>
+                                            <div class="content ">
+                                                <a href="#" target="_blank">
+                                                    <p class="title-home">فروش آپارتمانی به متراژ <span class="name">9</span> خیام شمالی</p>
+                                                </a>
+
+
+
+                                                <p class="home-facility">
+                                                    4  واحده  |  طبقه 3 |
+
+                                                    2 ساله     </p>
+
+
+                                                <p class="facilities"> آسانسور | پارکینگ </p>
+
+                                                <a href="#" target="_blank">
+                                                    <span class="price-home">  <span class="title price">1,770,000,000</span>    تومان </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--<div class='pagination'><a href='#' class='real-btn current' >1</a> <a href='#' class='real-btn'>2</a> </div>-->
+        </div>
+    </div>
+</section>
+<!--Start Footer -->
+<section id="footer">
+    <div class="footer-nav text-center">
+        <ul class="menu-footer font-xsmall">
+            <li><a href="#" title=" صفحه اصلی"> صفحه اصلی</a></li>
+            <li><a href="#" title="درباره ما">درباره ما</a></li>
+            <li><a href="#" title="تماس با ما">تماس با ما</a></li>
+            <li><a href="#" title="همکاری با ما">   همکاری با ما</a></li>
+            <li><a href="#" title="شرایط و قوانبن">  شرایط و قوانبن</a></li>
+
+        </ul>
+    </div>
+    <footer id="footer-wrapper">
+
+        <div id="footer-info"  style="text-align: center">
+
+            <div class="row copy-right">
+                <div class="col-lg-6 col-xs-12">
+
+                    <address class="address">
+                        <b>آدرس:</b> قزوین  خیابان شهید مدنی شرقی اول- کوچه ثالث
+                        <br><br>
+                        <b>تلفن:</b>   33333333-44444444
+                    </address>
+                    <p>
+                        کلیه حقوق مادی و معنوی این وبسایت متعلق به گروه املاک 79 می&zwnj;باشد. <span class="bamjoo">(  املاک 79)</span>
+                    </p>
+                    <p>
+                        هر گونه کپی برداری از محتوا و طرح های به کار رفته در این وبسایت طبق قانون حقوق مولفین پیگرد قانونی خواهد داشت.
+                    </p>
+                </div>
+
+
+                <div class="col-lg-3 col-xs-12">
+                    <div class="social-network">
+                        <i class="fa fa-telegram fa-3x"></i>
+                        <i class="fa fa-instagram fa-3x"></i>
+                        <i class="fa fa-google-plus fa-3x"></i>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-xs-12">
+                    <div class="v-middle-text">
+                        <img src="asset/images/safe-tech.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </footer><!-- End Footer -->
+</section>
+
+<script src="asset/js/jquery.min.js"></script>
+<script src='asset/js/custom.js'></script>
+<script src='asset/js/bootstrap.min.js'></script>
+<script src="asset/js/bootstrap-multiselect.min.js"></script> <!--only for index-->
+
+
+<script>
+    // multy select input
+    $(document).ready(function() {
+        $('#multiselect').multiselect({
+            includeSelectAllOption : true,
+            nonSelectedText: 'انتخاب کنید'
+        });
+    });
+    $(document).ready(function() {
+        $('#multiselect1').multiselect({
+            includeSelectAllOption : true,
+            nonSelectedText: 'انتخاب کنید'
+        });
+    });
+    $(document).ready(function() {
+        $('#multiselect2').multiselect({
+            includeSelectAllOption : true,
+            nonSelectedText: 'انتخاب کنید'
+        });
+    });
+    $(document).ready(function() {
+        $('#multiselect3').multiselect({
+            includeSelectAllOption : true,
+            nonSelectedText: 'انتخاب کنید'
+        });
+    });
+    $(document).ready(function() {
+        $('#multiselect4').multiselect({
+            includeSelectAllOption : true,
+            nonSelectedText: 'انتخاب کنید'
+        });
+    });
+    $(document).ready(function() {
+        $('#multiselect5').multiselect({
+            includeSelectAllOption : true,
+            nonSelectedText: 'انتخاب کنید'
+        });
+    });
+
+    // for id=buy
+    $('#buy .type-state').on('change', function() {
+        if(this.value == "1") {
+            $('.room-count').show();
+            $('.tarakom').hide();
+            $('.bahr').hide();
+            $('.unit-count').show();
+            $('.floor-count').show();
+            $('.age-state').show();
+            $('.location').show();
+            $('.elevator').show();
+            $('.parking').show();
+        }
+        if(this.value == "2") {
+            $('.tarakom').hide();
+            $('.bahr').hide();
+            $('.unit-count').hide();
+            $('.floor-count').show();
+            $('.age-state').show();
+            $('.location').show();
+            $('.elevator').show();
+            $('.parking').show();
+        }
+        if(this.value == "3") {
+            $('.room-count').hide();
+            $('.tarakom').show();
+            $('.bahr').hide();
+            $('.unit-count').hide();
+            $('.floor-count').hide();
+            $('.age-state').hide();
+            $('.location').hide();
+            $('.elevator').hide();
+            $('.parking').hide();
+        }
+        if(this.value == "4") {
+            $('.room-count').hide();
+            $('.tarakom').show();
+            $('.bahr').hide();
+            $('.unit-count').hide();
+            $('.floor-count').hide();
+            $('.age-state').hide();
+            $('.location').hide();
+            $('.elevator').hide();
+            $('.parking').hide();
+        }
+        if(this.value == "5") {
+            $('.room-count').show();
+            $('.tarakom').hide();
+            $('.bahr').hide();
+            $('.unit-count').show();
+            $('.floor-count').show();
+            $('.age-state').show();
+            $('.location').show();
+            $('.elevator').show();
+            $('.parking').show();
+        }
+        if(this.value == "6") {
+            $('.room-count').hide();
+            $('.tarakom').hide();
+            $('.unit-count').hide();
+            $('.floor-count').hide();
+            $('.age-state').hide();
+            $('.location').hide();
+            $('.elevator').hide();
+            $('.parking').hide();
+
+        }
+        if(this.value == "7") {
+            $('.room-count').hide();
+            $('.tarakom').hide();
+            $('.unit-count').hide();
+            $('.floor-count').hide();
+            $('.age-state').hide();
+            $('.location').hide();
+            $('.elevator').hide();
+            $('.parking').hide();
+
+        }
+        if(this.value == "8") {
+            $('.room-count').hide();
+            $('.tarakom').hide();
+            $('.unit-count').hide();
+            $('.floor-count').hide();
+            $('.age-state').hide();
+            $('.location').hide();
+            $('.elevator').hide();
+            $('.parking').hide();
+
+        }
+
+    });
+
+    // for id=rent
+    $('#rent .type-state').on('change', function() {
+        if(this.value == "1") {
+            $('.room-count').show();
+            $('.tarakom').hide();
+            $('.bahr').hide();
+            $('.unit-count').show();
+            $('.floor-count').show();
+            $('.age-state').show();
+            $('.location').show();
+            $('.elevator').show();
+            $('.parking').show();
+        }
+        if(this.value == "2") {
+            $('.tarakom').hide();
+            $('.bahr').hide();
+            $('.unit-count').hide();
+            $('.floor-count').show();
+            $('.age-state').show();
+            $('.location').show();
+            $('.elevator').show();
+            $('.parking').show();
+        }
+        if(this.value == "3") {
+            $('.room-count').hide();
+            $('.tarakom').show();
+            $('.bahr').hide();
+            $('.unit-count').hide();
+            $('.floor-count').hide();
+            $('.age-state').hide();
+            $('.location').hide();
+            $('.elevator').hide();
+            $('.parking').hide();
+        }
+        if(this.value == "4") {
+            $('.room-count').hide();
+            $('.tarakom').show();
+            $('.bahr').hide();
+            $('.unit-count').hide();
+            $('.floor-count').hide();
+            $('.age-state').hide();
+            $('.location').hide();
+            $('.elevator').hide();
+            $('.parking').hide();
+        }
+        if(this.value == "5") {
+            $('.room-count').show();
+            $('.tarakom').hide();
+            $('.bahr').hide();
+            $('.unit-count').show();
+            $('.floor-count').show();
+            $('.age-state').show();
+            $('.location').show();
+            $('.elevator').show();
+            $('.parking').show();
+        }
+        if(this.value == "6") {
+            $('.room-count').hide();
+            $('.tarakom').hide();
+            $('.unit-count').hide();
+            $('.floor-count').hide();
+            $('.age-state').hide();
+            $('.location').hide();
+            $('.elevator').hide();
+            $('.parking').hide();
+
+        }
+        if(this.value == "7") {
+            $('.room-count').hide();
+            $('.tarakom').hide();
+            $('.unit-count').hide();
+            $('.floor-count').hide();
+            $('.age-state').hide();
+            $('.location').hide();
+            $('.elevator').hide();
+            $('.parking').hide();
+
+        }
+        if(this.value == "8") {
+            $('.room-count').hide();
+            $('.tarakom').hide();
+            $('.unit-count').hide();
+            $('.floor-count').hide();
+            $('.age-state').hide();
+            $('.location').hide();
+            $('.elevator').hide();
+            $('.parking').hide();
+
+        }
+
+    });
+
+
+
+
+    // for id=presell
+    $('#presell .type-state').on('change', function() {
+        if(this.value == "1") {
+            $('.room-count').show();
+            $('.tarakom').hide();
+            $('.bahr').hide();
+            $('.unit-count').show();
+            $('.floor-count').show();
+            $('.age-state').hide();
+            $('.location').show();
+            $('.elevator').show();
+            $('.parking').show();
+        }
+        if(this.value == "2") {
+            $('.tarakom').hide();
+            $('.bahr').hide();
+            $('.unit-count').hide();
+            $('.floor-count').show();
+            $('.age-state').hide();
+            $('.location').show();
+            $('.elevator').show();
+            $('.parking').show();
+        }
+        if(this.value == "3") {
+            $('.room-count').hide();
+            $('.tarakom').show();
+            $('.bahr').hide();
+            $('.unit-count').hide();
+            $('.floor-count').hide();
+            $('.age-state').hide();
+            $('.location').hide();
+            $('.elevator').hide();
+            $('.parking').hide();
+        }
+        if(this.value == "4") {
+            $('.room-count').hide();
+            $('.tarakom').show();
+            $('.bahr').hide();
+            $('.unit-count').hide();
+            $('.floor-count').hide();
+            $('.age-state').hide();
+            $('.location').hide();
+            $('.elevator').hide();
+            $('.parking').hide();
+        }
+        if(this.value == "5") {
+            $('.room-count').show();
+            $('.tarakom').hide();
+            $('.bahr').hide();
+            $('.unit-count').show();
+            $('.floor-count').show();
+            $('.age-state').hide();
+            $('.location').show();
+            $('.elevator').show();
+            $('.parking').show();
+        }
+        if(this.value == "6") {
+            $('.room-count').hide();
+            $('.unit-count').hide();
+            $('.tarakom').hide();
+            $('.floor-count').hide();
+            $('.age-state').hide();
+            $('.location').hide();
+            $('.elevator').hide();
+            $('.parking').hide();
+
+        }
+        if(this.value == "7") {
+            $('.room-count').hide();
+            $('.tarakom').hide();
+            $('.unit-count').hide();
+            $('.floor-count').hide();
+            $('.age-state').hide();
+            $('.location').hide();
+            $('.elevator').hide();
+            $('.parking').hide();
+
+        }
+        if(this.value == "8") {
+            $('.room-count').hide();
+            $('.tarakom').hide();
+            $('.unit-count').hide();
+            $('.floor-count').hide();
+            $('.age-state').hide();
+            $('.location').hide();
+            $('.elevator').hide();
+            $('.parking').hide();
+
+        }
+
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/js/select2.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $(".statee").select2({
+            tags: true
+        });
+
+        $("#btn-add-state").on("click", function(){
+            var newStateVal = $("#new-state").val();
+            // Set the value, creating a new option if necessary
+            if ($(".statee").find("option[value='" + newStateVal + "']").length) {
+                $(".statee").val(newStateVal).trigger("change");
+            } else {
+                // Create the DOM option that is pre-selected by default
+                var newState = new Option(newStateVal, newStateVal, true, true);
+                // Append it to the select
+                $(".statee").append(newState).trigger('change');
+            }
+        });
+    });
+</script>
+<script>
+    $('select.label').change(function(){
+
+        $(this).css('color', '#3fb92b');
+    });
+
+    $('.js-example-basic-single').change(function(){
+        $( this ).parents( ".selectwrap" ).find('.select2-selection__rendered').css('color', '#3fb92b');
+    });
+    $('select.multiselect').change(function(){
+        $( this ).parents( ".option-bar" ).find('.btn-group .multiselect-selected-text').css('color', '#3fb92b');
+    });
+
+
+</script>
+</body>
+</html>
