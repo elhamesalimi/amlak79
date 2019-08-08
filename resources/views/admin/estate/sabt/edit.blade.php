@@ -1008,11 +1008,6 @@
         });
 
     </script>
-<script>
-    $(document).on('click','#push-gitHub',function(){
-        var status = 'ok';
-    })
-</script>
 @endpush
 
 
